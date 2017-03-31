@@ -4,12 +4,12 @@
 var ProvinceData = {
     JSonData:'',
     init:function(provinceSelectID, citySelectID, agencyID){
-        $.ajax({
-            type:'get',
-            url:'http://fld.xingyuanauto.com/public/index.php/port/city/Dealer',
-            success:function(msg){
+//      $.ajax({
+//          type:'get',
+////          url:'http://fld.xingyuanauto.com/public/index.php/port/city/Dealer',
+//          success:function(msg){
                 //console.log(msg);
-                JSonData = JSON.parse(msg);
+                JSonData = Dealer;
                 console.log(JSonData);
                 if(provinceSelectID){
                     ProvinceData.BindProvince(provinceSelectID);
@@ -24,15 +24,15 @@ var ProvinceData = {
                         ProvinceData.BindAgency(provinceSelectID, citySelectID, agencyID);
                     })
                 }
-            }
-        });
+//          }
+//      });
     },
     BindProvince:function(provinceSelectID){
         if (JSonData && JSonData.length > 0) {
             var masterObj = document.getElementById(provinceSelectID);
             if (masterObj && masterObj.options) {
                 masterObj.options.length = 0;
-                masterObj.options[0] = new Option("省/直辖市", -1);
+                masterObj.options[0] = new Option("选择城市", -1);
                 for (var i = 0; i < JSonData.length; i++) {
                     masterObj.options[masterObj.options.length] = new Option(JSonData[i].dealer_name, JSonData[i].dealer_id);
                 }

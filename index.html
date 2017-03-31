@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>美团外卖</title>
+    <title>美团外卖h5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,shrink-to-fit=no">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="black" name="apple-mobile-web-app-status-bar-style">
@@ -25,22 +25,30 @@
             <div class="mask"><span id="img-loading-txt">100</span></div>
         </div>
     </div>
-    <div class="swiper-container" id="swiperBox" >
+    <div class="swiper-container" id="swiperBox">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background:#f00;">
-                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">内容1</p>
+        	<!--PAGE-01-->
+            <div class="swiper-slide slidePage01" style="background:#dadada;">        	
+                <img src="img/team1.png" class="page-001 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s"/>
+                <img src="img/luxian.png" class="page-002 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s"/>
+                <img src="img/text.png" class="page-003 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s"/>
+                <img src="img/dou.png" class="page-004 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s"/>
+                <img src="img/luxian02.png" class="page-005 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s"/>
+                <img src="img/team2.png" class="page-006 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s"/>
+                <img src="img/car.png" class="page-007 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.4s"/>
             </div>
-            <div class="swiper-slide" style="background:#0f0;">
-                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">内容2</p>
+            <!--PAGE-02-->
+            <div class="swiper-slide" style="background:#007AFF;">
+                <p class="ani">slide02</p>
             </div>
-            <div class="swiper-slide" style="background:#00f;">
-                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">内容3</p>
-            </div>
-            <div class="swiper-slide" style="background:#00f;">
-                <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">内容3</p>
-            </div>
-            <div class="swiper-slide" style="background:#00f;">
-                <div  class="userInfo-box" >
+            <!--PAGR-03-->
+            <div class="swiper-slide" style="background:#FFFFFF;">
+                <div class="userInfo-box" >
+						<div class="input-title"><i><span>好</span>礼相送！预约试驾</i></div>
+						<p class="userInfo-tip" align="left">即日起至2017年4月21日，凡在线成功填写预约试驾表单的用户，即有机会赢取精美好礼一份！</p>
+						<div class="input-form-right">
+							<img src="img/onetwothree.png" alt=""/>
+						</div>
 						<ul class="input-form">
 							<li>
 								<span class="firstspan">姓名</span>
@@ -70,21 +78,56 @@
 							<li>
 								<span>经销商</span>
 								<select id="agency" name="agency"  >
-									<option value="-1">经销商</option>
+									<option value="-1">选择经销商</option>
 								</select>
 							</li>
 						</ul>
-						<div class="input-form-right">
-            </div>
+						
+						<div class="btn-userInfo"><p  id="btn-userInfo" >提&nbsp;&nbsp;&nbsp;交</p></div>
+							<a id="rule-icon" >发奖及售后说明</a>
+						</div>
+						<div class="userInfo" id="actionRules">
+							<div  class="action-rules">
+								<span class="close">×</span>
+								<h2>发奖及售后说明:</h2>
+								<h4>
+									1、即日起至2017年4月21日，预约试驾，填写完整个人信息，即有机会获得精美礼品，数量有限，发完为止。获奖名单在活动结束后统一公布，敬请期待。<br/>
+									2、所有礼品为电子卡，自活动结束之日起，60个工作日内以短信方式统一发放，还请务必填写真实姓名、联系电话，以便活动后发放电子兑换码。<br/>
+									3、活动结束后行圆汽车将与获奖网友联系，届时请您与我们核实获奖信息（获奖人姓名、手机号码）。<br/>
+									4、若活动结束后的60个工作日内，无法联系到您，且则视为您主动放弃获奖资格，奖品亦不予保留。<br/>
+									5、最终解私权归行圆汽车所有，如有疑问，请邮件至Service1@xingyuanauto.com邮箱，我们会第一时间为您解答。<br/>
+								</h4>
+							</div>
+						</div>
+						<div class="userInfo" id="prizeResult">
+							<div class="prize-result">
+								<div class="prize-result-info">
+									<h1 class="notGet"><i></i></h1>
+									<p>感谢您参与东风标致X008 SUV盛会活动</p>
+								</div>
+							</div>						
+						</div>
+				</div>				
+           </div>
         </div>
+        <!--音乐-->
+        <div class="btn-music open-music">
+			<img src="img/musicopen.png" class="open music" style="display: block;"/>
+			<img src="img/musicclose.png" class="clock music" style="display: none;"/>
+		</div>
+		<!--按键-->
+		<div class="swiper-button-next"></div> 
     </div>
+   
 </div>
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/swiper.animate1.0.2.min.js"></script>
 <script src="js/init.js"></script>
-<!--<script src="js/province.js"></script>-->
-<!--<script src="js/style.js"></script>-->
+<script src="js/style.js"></script>
+<script src="js/city_dealer.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/province.js"></script>
+<script src="js/zhongjiang.js" type="text/javascript" charset="utf-8"></script>
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script src="js/wx_share.js"></script>
 <script>
@@ -101,19 +144,32 @@
 
     var mySwiper = new Swiper('.swiper-container',{
         direction:'vertical',
+        loop : true,
+        nextButton:'.swiper-button-next',
         onInit:function(swiper){
             swiperAnimateCache(swiper);
             swiperAnimate(swiper);
         },
         onSlideChangeEnd:function(swiper){
-            swiperAnimate(swiper);
-        }
+            swiperAnimate(swiper); 
+//           if(swiper.activeIndex=0){
+//          	 $('.slidePage01').addClass('page-007');
+//          }
+        }, 
+//      onSlideChangeStart: function(swiper){
+//    		 if(swiper.activeIndex=1){
+//          	 $('.slidePage01').removeClass('page-007');
+//          }
+//  	}  
     });
     $(function(){
         var w = window.innerWidth;
         var h = window.innerHeight;
         $('body').css({'width':w,'height':h});
-    })
+        $(".swiper-slide").css({'width':w,'height':h});
+        ProvinceData.init('ddlProvince','ddlCity','agency');
+        SaveInfo.init();       
+    });
 </script>
 </body>
 </html>
