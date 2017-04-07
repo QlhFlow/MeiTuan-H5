@@ -8,8 +8,21 @@ var SaveInfo = {
     city:null,
     agency:null,
     cartype:null,
+    key:null,
     init:function(){
-        this.updateView();
+        
+        $.ajax({
+		    type:'get',
+		    url:'https://fld.xingyuanauto.com/public/index.php/port/Aes/GetEncrypt',
+		    success:function(key){  
+		        if(key){
+		        	SaveInfo.key = key;
+		        	SaveInfo.updateView();
+		        	
+		        }
+		        
+		    }
+		});
     },
     updateView:function(){
         SaveInfo.inputReg();
@@ -86,7 +99,7 @@ var SaveInfo = {
         $('#btn-userInfo').bind('click',function(e){
             e.preventDefault();
             var key = $("input[name='key']").val();
-            if(SaveInfo.clickReg()&&key){
+            if(SaveInfo.clickReg()){
                 SaveInfo.username = $('input[name="username"]').val();
                 SaveInfo.phone = $('input[name="phone"]').val();
                 SaveInfo.province = $('select[name="ddlProvince"] option:selected').val();
@@ -98,7 +111,7 @@ var SaveInfo = {
                     numberphone:SaveInfo.phone,
                     dealer:SaveInfo.province+','+SaveInfo.city+','+SaveInfo.agency,
                     model:SaveInfo.cartype,
-                    key:key
+                    key:SaveInfo.key
                 };
                 $.ajax({
                     url:'https://xy.qichedaquan.com/medias/public/index.php/port/Userreg/CKphoneHave',

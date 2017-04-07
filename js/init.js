@@ -1,84 +1,51 @@
 
-/***图片预加载ʾ**/
-function funImgLoading(containID,txtID,fnComplete) {
-    if (sessionStorage.getItem("pageloaded")=="true") {
-        fnComplete();
-        return false;
-    }
-    var box = document.getElementById(containID);
-    var domTag = box.getElementsByTagName("*");
-    var domLen = domTag.length;
-
-    var imgLoadedNum = 0;
-
-    var imgAllNum = 0;
-
-    var loadDiv = document.getElementById(txtID);
-
-    for(var i = 0; i < domLen; i++) {
-        var thisDom = domTag[i];
-
-        var imgUrl = window.getComputedStyle(thisDom).getPropertyValue("background-image");
-
-
-        var imgNewUrl = imgUrl.match(/[^url\("'](.+)[^'"\)]/g);
-
-
-        if(imgNewUrl[0].indexOf("/") != -1) {
-
-            imgAllNum++;
-
-            var imgNewUrlStr = imgNewUrl[0];
-
-            var bgimgElement = document.createElement("img");
-            bgimgElement.setAttribute("src", imgNewUrlStr);
-
-            bgimgElement.addEventListener("load", funLoad);
-
-        }
-
-        else if(thisDom.tagName == "IMG") {
-
-            imgAllNum++;
-
-            if(thisDom.complete){
-
-                ++imgLoadedNum;
-            }else{
-
-                thisDom.addEventListener("load", funLoad);
-            }
-
-        }
-    }
-
-    function funLoad() {
-
-        var percent = parseInt((++imgLoadedNum) / imgAllNum * 100);
-        loadDiv.innerHTML = percent+'%';
-        $('#img-loading-txt').html(percent+'%');
-        $('#swiperBox').css('display','none');
-        if (percent<=50) {
-        } else {
-            if(percent >= 100) {
-                setTimeout(fnComplete,500);
-                $('#swiperBox').fadeIn();
-                sessionStorage.setItem("pageloaded", "true");
+function ImgLoadingByFile(imgArray){
+    if(sessionStorage.getItem("pageloaded")){
+        $('#img-loading-txt').html('100%');
+        $("#loadingPage").hide();
+        $(".btn-music").show();
+        $("#animation_container").show();
+        init();
+    }else{
+        var imgLoad = 0;
+        if(imgArray.length>0){
+            var imgTotal = imgArray.length;
+            var percent = 0;
+            var img = [];
+            for(var i = 0;i<imgArray.length;i++){
+                img[i] = new Image();
+                //console.log(imgArray[i],img[i]);
+                img[i].src=imgArray[i];
+                img[i].onload = function(){
+                    imgLoad++;
+                    //console.log(imgArray[i],img[i]);
+                    percent = parseInt(imgLoad/imgTotal*100);
+                    $('#img-loading-txt').html(percent+'%');
+                    console.log(percent);
+//                  if(percent>=100){
+                        if(percent >= 100) {
+                        	
+                        	var timer = null;
+                        	timer = setTimeout(function(){
+                        		$("#loadingPage").hide();
+                        		$('#img-loading-txt').html('100%');
+                        		$(".btn-music").show();
+                            	$("#animation_container").show();
+                                 init();
+                            	sessionStorage.setItem("pageloaded", "true");       
+                             	clearTimeout(timer);
+            					timer=null;
+                        	},300);
+                            
+                        }
+//                  }
+                }
             }
         }
     }
 }
 
-
-funImgLoading("page-box","img-loading-txt",function(){
-    //var loadingPage = document.getElementById("loadingPage");
-    if(sessionStorage.getItem("pageloaded")){
-        //loadingPage.style.display = "none";
-        $('#loadingPage').css('display','none');
-        $('#swiperBox').fadeIn();
-    }
-});
-/******rem *******/
+/******rem ����*******/
 (function(win){
     var remCalc = {};
     var docEl = win.document.documentElement,
@@ -133,6 +100,4 @@ funImgLoading("page-box","img-loading-txt",function(){
         win.remCalc = remCalc;
     }
 })(window);
-
-
 
