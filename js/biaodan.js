@@ -98,7 +98,7 @@ var SaveInfo = {
         $('#btn-userInfo').unbind('click');
         $('#btn-userInfo').bind('click',function(e){
             e.preventDefault();
-            var key = $("input[name='key']").val();
+            //var key = $("input[name='key']").val();
             if(SaveInfo.clickReg()){
                 SaveInfo.username = $('input[name="username"]').val();
                 SaveInfo.phone = $('input[name="phone"]').val();
@@ -113,54 +113,43 @@ var SaveInfo = {
                     model:SaveInfo.cartype,
                     key:SaveInfo.key
                 };
+                
                 $.ajax({
-                    url:'https://xy.qichedaquan.com/medias/public/index.php/port/Userreg/CKphoneHave',
+                    url:'https://fld.xingyuanauto.com/public/index.php/port/Userdbmeituanlotter/UserLotter',
                     type:'post',
-                    data:{key:key,numberphone:SaveInfo.phone},
-                    success:function(result) {
-                        var result = JSON.parse(result);
-                        if(result.start==2008){
-                            $.ajax({
-                                url:'https://xy.qichedaquan.com/Baowo/Flow/public/index.php/port/Userdblotter/UserLotter',
-                                type:'post',
-                                data:data,
-                                success:function(obj) {
-                                    var obj = JSON.parse(obj);
-                                    if (obj.start == 2004) {
-                                        $('#userInfo').hide();
-                                        $('#prizeResult').show();
-                                        if (obj.msg == 1) {
-                                            $('#prizeResult h1').removeClass('notGet').addClass('get');
-                                            $('#prizeResult h1 i').html('恭喜您，中了一等奖');
-                                            $('#prizeResult p').html('2个月以内我们会与您电话沟通，请保持电话通畅；奖品会在随后发放');
-                                        } else if (obj.msg == 2) {
-                                            $('#prizeResult h1').removeClass('notGet').addClass('get');
-                                            $('#prizeResult h1 i').html('恭喜您，中了二等奖');
-                                            $('#prizeResult p').html('2个月以内我们会与您电话沟通，请保持电话通畅；奖品会在随后发放');
-                                        } else if (obj.msg == 3) {
-                                            $('#prizeResult h1').removeClass('notGet').addClass('get');
-                                            $('#prizeResult h1 i').html('恭喜您，中了三等奖');
-                                            $('#prizeResult p').html('2个月以内我们会与您电话沟通，请保持电话通畅；奖品会在随后发放');
-                                        } else {
-                                            $('#prizeResult h1').addClass('notGet').removeClass('get');
-                                            $('#prizeResult h1 i').html('感谢您参与东风标致X008 SUV盛会活动！');
-                                            $('#prizeResult p').html('');
-                                        }
-                                        $('#prizeResult').unbind('click').bind('click',function () {
-                                            $('#prizeResult').fadeOut();
+                    data:data,
+                    success:function(obj) {
+                        var obj = JSON.parse(obj);
+                        if (obj.start == 2004) {
+                            $('#userInfo').hide();
+                            $('#prizeResult').show();
+                            if (obj.msg == 1) {
+                                $('#prizeResult h1').removeClass('notGet').addClass('get');
+                                $('#prizeResult h1 i').html('恭喜您，中了一等奖');
+                                $('#prizeResult p').html('2个月以内我们会与您电话沟通，请保持电话通畅；奖品会在随后发放');
+                            } else if (obj.msg == 2) {
+                                $('#prizeResult h1').removeClass('notGet').addClass('get');
+                                $('#prizeResult h1 i').html('恭喜您，中了二等奖');
+                                $('#prizeResult p').html('2个月以内我们会与您电话沟通，请保持电话通畅；奖品会在随后发放');
+                            } else if (obj.msg == 3) {
+                                $('#prizeResult h1').removeClass('notGet').addClass('get');
+                                $('#prizeResult h1 i').html('恭喜您，中了三等奖');
+                                $('#prizeResult p').html('2个月以内我们会与您电话沟通，请保持电话通畅；奖品会在随后发放');
+                            } else {
+                                $('#prizeResult h1').addClass('notGet').removeClass('get');
+                                $('#prizeResult h1 i').html('感谢您参与东风标致X008 SUV盛会活动！');
+                                $('#prizeResult p').html('');
+                            }
+                            $('#prizeResult').unbind('click').bind('click',function () {
+                                $('#prizeResult').fadeOut();
 
-                                        });
-                                    }else {
-                                        alert(obj.msg);
-                                    }
-                                }
-                            })
-                        }else{
-                            alert(result.msg);
+                            });
+                        }else {
+                            alert(obj.msg);
                         }
                     }
-                });
-
+                })
+               
             }else{
                 alert('请完善您的报名信息');
             }

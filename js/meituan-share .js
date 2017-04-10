@@ -3,7 +3,7 @@ var shareConfig = {
 	channel: 385,
 		content: '4月健康餐——X008食谱，坐享轻松之路',
 		href: 'https://h5.xingyuanauto.com/Dongbiao/DbMeit/index.html',
-		imageURL: 'https://h5.xingyuanauto.com/Dongbiao/DbMeit/img/xiaotu.png',
+		imageURL: 'https://h5.xingyuanauto.com/Dongbiao/DbMeit/img/xiaotu.jpg',
 		title: '东风标致X008 SUV三重钜惠豪华盛宴',
 		success: null
 }; //配置参数
