@@ -45,7 +45,6 @@ ImgLoadingByFile(imgFile);//canvas是动画页的DIV
 
 var ending = document.getElementById("ending");
 var information = document.getElementById("information");
-//var timer = null;
 
 ending.addEventListener('touchmove',function(e){
     	e.preventDefault();
@@ -53,15 +52,3 @@ ending.addEventListener('touchmove',function(e){
         $("#information").css("top","0");
         $("#animation_container").css("opacity","0");     
  });
-    
-        
-        
-    
-//
-//var canvas = document.getElementById('animation_container');
-//canvas.addEventListener('click',function(e){
-//  	e.preventDefault();
-//      canvas.addClass("hide");
-//		$('.userInfo-box').addClass("show");
-//     
-//});

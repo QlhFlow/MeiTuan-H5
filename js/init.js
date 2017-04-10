@@ -3,11 +3,13 @@ function ImgLoadingByFile(imgArray){
     if(sessionStorage.getItem("pageloaded")){
         $('#img-loading-txt').html('100%');
          init();
+         
         var timer = null;
         timer = setTimeout(function(){
 	        $("#loadingPage").hide();
-	        $(".btn-music").show();
-	        $("#animation_container").show();
+            $('#img-loading-txt').html('100%');
+    		$(".btn-music").show();
+        	$("#animation_container").show();
 	        clearTimeout(timer);
 	        timer=null;
         },300);
@@ -19,17 +21,18 @@ function ImgLoadingByFile(imgArray){
             var img = [];
             for(var i = 0;i<imgArray.length;i++){
                 img[i] = new Image();
-                //console.log(imgArray[i],img[i]);
+                
                 img[i].src=imgArray[i];
                 img[i].onload = function(){
                     imgLoad++;
-                    //console.log(imgArray[i],img[i]);
+                    
                     percent = parseInt(imgLoad/imgTotal*100);
                     $('#img-loading-txt').html(percent+'%');
                     console.log(percent);
-//                  if(percent>=100){
+
                         if(percent >= 100) {
                         	init();
+                        	
                         	var timer = null;
                         	timer = setTimeout(function(){
                         		$("#loadingPage").hide();
@@ -43,7 +46,7 @@ function ImgLoadingByFile(imgArray){
                         	},300);
                             
                         }
-//                  }
+
                 }
             }
         }

@@ -337,24 +337,24 @@ select {
   opacity: 0;
 }
 .text {
-  -webkit-animation: aa 0.4s 0.4s ease forwards;
-  animation: aa 0.4s 0.4s ease forwards;
+  -webkit-animation: aa 0.4s 0.6s ease forwards;
+  animation: aa 0.4s 0.6s ease forwards;
 }
 .aa01 {
-  -webkit-animation: fadeIn 0.8s 0.5s ease forwards;
-  animation: fadeIn 0.8s 0.5s ease forwards;
+  -webkit-animation: fadeIn 0.8s 0.7s linear forwards;
+  animation: fadeIn 0.8s 0.7s linear forwards;
 }
 .aa02 {
-  -webkit-animation: fadeIn 0.8s 0.8s ease forwards;
-  animation: fadeIn 0.8s 0.8s ease forwards;
+  -webkit-animation: fadeIn 0.8s 1s linear forwards;
+  animation: fadeIn 0.8s 1s linear forwards;
 }
 .aa03 {
-  -webkit-animation: fadeIn 0.8s 1s ease forwards;
-  animation: fadeIn 0.8s 1s ease forwards;
+  -webkit-animation: fadeIn 0.8s 1.3s linear forwards;
+  animation: fadeIn 0.8s 1.3s linear forwards;
 }
 .bb {
-  -webkit-animation: bounceIn 0.8s 1.5s ease forwards;
-  animation: bounceIn 0.8s 1.5s ease forwards;
+  -webkit-animation: bounceIn 0.6s 1.6s linear forwards;
+  animation: bounceIn 0.6s 1.6s linear forwards;
 }
 .join-click {
   opacity: 1;
