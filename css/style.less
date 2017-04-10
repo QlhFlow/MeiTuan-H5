@@ -72,22 +72,25 @@ html, body { position: relative;}
   overflow: hidden;
   position: relative;
 }
-#load-page{
+#loadingPage{
   width:100%;
   height:100%;
   position: absolute;
   left:0;
   top:0;
   z-index: 999;
-  background:#FFFFFF;
+  background:#E1E7EB;
   #img-load-now{
-    position: absolute;top:70%;left:50%;transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%);color: #000000;
+    position: absolute;top:70%;left:50%;transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%);color:#000000;
   }
 }
+.mask{ text-align: center;margin-top: 680/75rem;font-size: 32/75rem;color:#666666; }
+.mask span{color:#666666;font-size: 32/75rem;}
 .loading{width:400/75rem; height: 100/75rem;background-image:url(../img/loading.gif);background-size:400/75rem 100/75rem;position: absolute;top:50%;
         left:50%;
         transform: translate(-50%,-50%);
         -webkit-transform: translate(-50%,-50%);}
+   
         
  #animation_container {
     position:absolute;
@@ -98,8 +101,9 @@ html, body { position: relative;}
   }
   div.hide{
     top:-100%;
-    transition: all 0.7s ease-in; 
-    -webkit-transition: all 0.7s ease-in; 
+    transition: all 0.3s ease-in; 
+    -webkit-transition: all 0.3s ease-in; 
+    opacity: 0;
     
 //  position: absolute;
 }
@@ -131,21 +135,21 @@ html, body { position: relative;}
 div.page-box div.information.show{
 //  position: absolute;
     top:0;
-     transition: all 0.7s ease-in; 
-    -webkit-transition: all 0.7s ease-in; 
+     transition: all 0.3s ease-in; 
+    -webkit-transition: all 0.3s ease-in; 
     opacity: 1;
 }
 
 div.page-box div.userInfo-box.shaw{
     top:100%;
-     transition: all 0.7s ease-in; 
-    -webkit-transition: all 0.7s ease-in; 
+     transition: all 0.3s ease-in; 
+    -webkit-transition: all 0.3s ease-in; 
     opacity: 1;
 }
 div.page-box div.userInfo-box.shew{
     top:0;
-     transition: all 0.7s ease-in; 
-    -webkit-transition: all 0.7s ease-in; 
+     transition: all 0.3s ease-in; 
+    -webkit-transition: all 0.3s ease-in; 
     opacity: 1;
 }
 
@@ -170,15 +174,38 @@ input,select{
 }
 .information{width: 100%; height: 100%; background: #1a1f20; position: absolute;opacity: 0;top:100%;left:0;}
 .inf-01{width: 100%; height: 667/75rem; position: absolute; top: 0; left: 0;}
-.inf-02{width: 618/75rem; height: 222/75rem; position: absolute; bottom: 552/75rem; left:66/75rem;  } 
-.inf-03{width: 615/75rem; height: 174/75rem; position: absolute; bottom: 366/75rem; left:66/75rem; } 
-.inf-04{width: 616/75rem; height: 174/75rem; position: absolute; bottom: 180/75rem; left:66/75rem; } 
-.inf-05{width: 356/75rem; height: 100/75rem; position: absolute; bottom: 46/75rem; left:197/75rem;  } 
-div.aa01{-webkit-animation: fadeIn 0.8s ease forwards; animation: fadeIn 0.8s ease forwards;}
-div.aa02{-webkit-animation: fadeIn 0.8s 0.3s ease forwards; animation: fadeIn 0.8s 0.3s ease forwards;}
-div.aa03{-webkit-animation: fadeIn 0.8s 0.5s ease forwards; animation: fadeIn 0.8s 0.5s ease forwards;}
-div.bb{-webkit-animation: bounceIn 0.8s 1s ease forwards; animation: bounceIn 0.8s 1s ease forwards;}
+.inf-text{width:625/75rem; height: 49/75rem; position: absolute; bottom: 767/75rem; left:69/75rem; opacity: 0;}
+.inf-02{width: 612/75rem; height: 146/75rem; position: absolute; bottom: 621/75rem; left:69/75rem; opacity: 0; } 
+.inf-03{width: 612/75rem; height: 179/75rem; position: absolute; bottom: 426/75rem; left:69/75rem; opacity: 0; } 
+.inf-04{width: 612/75rem; height: 251/75rem; position: absolute; bottom: 160/75rem; left:69/75rem; opacity: 0;} 
+.inf-05{width: 356/75rem; height: 100/75rem; position: absolute; bottom: 46/75rem; left:197/75rem;  opacity: 0;} 
+.text{-webkit-animation: aa 0.4s 0.4s ease forwards; animation: aa 0.4s 0.4s ease forwards;}
+.aa01{-webkit-animation: fadeIn 0.8s 0.5s ease forwards; animation: fadeIn 0.8s 0.5s ease forwards;}
+.aa02{-webkit-animation: fadeIn 0.8s 0.8s ease forwards; animation: fadeIn 0.8s 0.8s ease forwards;}
+.aa03{-webkit-animation: fadeIn 0.8s 1s ease forwards; animation: fadeIn 0.8s 1s ease forwards;}
+.bb{-webkit-animation: bounceIn 0.8s 1.5s ease forwards; animation: bounceIn 0.8s 1.5s ease forwards;}
+.join-click{
+  opacity: 1;
+  animation: joinClick 4s ease infinite ;
+  -webkit-animation: joinClick 4s ease infinite ;
+}
+@-webkit-keyframes aa{
+   0%{opacity: 0;}
+   100%{opacity: 1;}
+}
+@keyframes aa{
+   0%{opacity: 0;}
+   100%{opacity: 1;}  
+}
 @keyframes fadeIn {
+  0%,60%,75%,90%,100%{-webkit-transition-timing-function:cubic-bezier(0.215,.610,.355,1.000);transition-timing-function:cubic-bezier(0.215,.610,.355,1.000)}
+  0%{opacity:0;-webkit-transform:translate3d(1500/75rem,0,0);transform:translate3d(1500/75rem,0,0)}
+  60%{opacity:1;-webkit-transform:translate3d(-50/75rem,0,0);transform:translate3d(-50/75rem,0,0)}
+  75%{-webkit-transform:translate3d(20/75rem,0,0);transform:translate3d(20/75rem,0,0)}
+  90%{-webkit-transform:translate3d(-10/75rem,0,0);transform:translate3d(-10/75rem,0,0)}
+  100%{opacity:1;-webkit-transform:none;-ms-transform:none;transform:none}
+}
+@-webkit-keyframes fadeIn {
   0%,60%,75%,90%,100%{-webkit-transition-timing-function:cubic-bezier(0.215,.610,.355,1.000);transition-timing-function:cubic-bezier(0.215,.610,.355,1.000)}
   0%{opacity:0;-webkit-transform:translate3d(1500/75rem,0,0);transform:translate3d(1500/75rem,0,0)}
   60%{opacity:1;-webkit-transform:translate3d(-50/75rem,0,0);transform:translate3d(-50/75rem,0,0)}
@@ -195,8 +222,73 @@ div.bb{-webkit-animation: bounceIn 0.8s 1s ease forwards; animation: bounceIn 0.
   80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}
   100%{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
 }
+@-webkit-keyframes bounceIn{
+  0%,20%,40%,60%,80%,100%{-webkit-transition-timing-function:cubic-bezier(0.215,.610,.355,1.000);transition-timing-function:cubic-bezier(0.215,.610,.355,1.000)}
+  0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}
+  20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}
+  40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}
+  60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}
+  80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}
+  100%{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+}
+@keyframes joinClick {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 
+  2.5%, 5% {
+    -webkit-transform: scale(.95) rotate3d(0, 0, 1, -2deg);
+    transform: scale(.95) rotate3d(0, 0, 1, -2deg);
+  }
 
+  7.5%, 12.5%, 17.5%, 22.5% {
+    -webkit-transform: scale(1.05) rotate3d(0, 0, 1, 2deg);
+    transform: scale(1.05) rotate3d(0, 0, 1, 2deg);
+  }
+
+  10%, 15%, 20% {
+    -webkit-transform: scale(1.05) rotate3d(0, 0, 1, -2deg);
+    transform: scale(1.05) rotate3d(0, 0, 1, -2deg);
+  }
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100%{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes joinClick {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  2.5%, 5% {
+    -webkit-transform: scale(.95) rotate3d(0, 0, 1, -2deg);
+    transform: scale(.95) rotate3d(0, 0, 1, -2deg);
+  }
+
+  7.5%, 12.5%, 17.5%, 22.5% {
+    -webkit-transform: scale(1.05) rotate3d(0, 0, 1, 2deg);
+    transform: scale(1.05) rotate3d(0, 0, 1, 2deg);
+  }
+
+  10%, 15%, 20% {
+    -webkit-transform: scale(1.05) rotate3d(0, 0, 1, -2deg);
+    transform: scale(1.05) rotate3d(0, 0, 1, -2deg);
+  }
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100%{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 .userInfo{
     display:none;
     background:rgba(0,0,0,0.6);
@@ -279,7 +371,7 @@ div.bb{-webkit-animation: bounceIn 0.8s 1s ease forwards; animation: bounceIn 0.
                 color: #fff;
                 position: absolute;
                 left: -3/75rem;
-                top: 0;
+                top: -1/75rem;
                 width: 111/75rem;
                 height: 55/75rem;
                 line-height: 55/75rem;
@@ -387,7 +479,11 @@ div.bb{-webkit-animation: bounceIn 0.8s 1s ease forwards; animation: bounceIn 0.
     -webkit-box-shadow:0 0 7px #ccc;
     -moz-box-shadow:0 0 7px #ccc;
     box-shadow:0 0 7px #ccc;
-//  border-radius: 10px;
+    border: solid #E9E9E9 1px;
+    -webkit-box-shadow:0 0 7px #000;
+    -moz-box-shadow:0 0 7px #000;
+    box-shadow:0 0 7px #000;
+    border-radius: 8px;
     
 #close-rules{
         position: absolute;

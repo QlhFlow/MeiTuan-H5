@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>美团外卖h5</title>
+    <title>东风标致3重钜惠 看完诱惑满满</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,shrink-to-fit=no">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="black" name="apple-mobile-web-app-status-bar-style">
@@ -16,8 +16,7 @@
     </script>
 </head>
 <body onload="init();" style="margin:0px;">
-<div id="page-box" class="page-box" style="background:#E1E7EB ;">
-		
+<div id="page-box" class="page-box" style="background:#E1E7EB ;">		
         <div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:750px; height:1206px">
 			<canvas id="canvas" width="750" height="1206" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
 			<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:750px; height:1206px; position: absolute; left: 0px; top: 0px; display: block;">
@@ -26,6 +25,7 @@
 		<!--详情页-->
 		<div class="information" id="information">
 			<img src="img/gogogo.jpg" class="inf-01"/>
+			<img src="img/three.png" class="inf-text"/>
 			<img src="img/write01.png" class="inf-02"/>
 			<img src="img/write02.png" class="inf-03"/>
 			<img src="img/write03.png" class="inf-04"/>
@@ -106,10 +106,10 @@
 		<div class="page01" id="loadingPage" >
 		        <div class="img-load-now">
 		            <div class="loading"></div>
-		            <div class="mask"><span id="img-loading-txt">100</span></div>
+		            <div class="mask"><span id="img-loading-txt"></span></div>
 		        </div>
 		</div>
-		<audio src="video/Echo.mp3" id="musicStar"  loop="loop" preload="load" autoplay="autoplay"></audio>  
+		<audio src="video/lll.mp3" id="musicStar"  loop="loop" preload="load" autoplay="autoplay"></audio>  
 </div>
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/init.js"></script>
@@ -118,9 +118,12 @@
 <script src="js/style.js"></script>
 <script src="js/city_dealer.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/province.js"></script>
+<script src="js/biaodan.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/zhongjiang.js" type="text/javascript" charset="utf-8"></script>
-<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="https://h5.xingyuanauto.com/weixin_serve/jssdk/js/jweixin-1.0.0.js"></script>
 <script src="js/wx_share.js"></script>
+<script src="js/meituan-share .js" type="text/javascript" charset="utf-8"></script>
+
 <script>
     function audioAutoPlay(id){
         var audio = document.getElementById(id),
@@ -172,7 +175,7 @@ function handleComplete(evt) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib.meituan32();
+	exportRoot = new lib.meituan34();
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);
 	stage.enableMouseOver();	

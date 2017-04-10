@@ -1,6 +1,6 @@
 //动画开始播放音乐
     musicStar.load();
-    musicStar.src="video/Echo.mp3";
+    musicStar.src="video/lll.mp3";
     musicStar.play();
     $(".open").click(function(){
         musicStar.pause();
@@ -17,6 +17,7 @@
     $('.inf-05').click(function(){
     	$('#information').css("top","-100%");
     	$("#ending").addClass('shew');
+    	$("#animation_container").css("opacity","0");
     });
 $(function(){
 	var imgFile = [
@@ -27,6 +28,7 @@ $(function(){
     './images/_35wegsew.png',
     './images/asfasfa.png',
     './images/BB.jpg',
+    './img/three.png',
     './images/efzfafa.png',
     './images/etsdgset.png',
     './images/setsdgs.png',
@@ -43,13 +45,14 @@ ImgLoadingByFile(imgFile);//canvas是动画页的DIV
 
 var ending = document.getElementById("ending");
 var information = document.getElementById("information");
-var timer = null;
+//var timer = null;
 
 ending.addEventListener('touchmove',function(e){
     	e.preventDefault();
         $("#ending").removeClass('shew');
         $("#information").css("top","0");
-    });
+        $("#animation_container").css("opacity","0");     
+ });
     
         
         

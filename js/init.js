@@ -2,10 +2,15 @@
 function ImgLoadingByFile(imgArray){
     if(sessionStorage.getItem("pageloaded")){
         $('#img-loading-txt').html('100%');
-        $("#loadingPage").hide();
-        $(".btn-music").show();
-        $("#animation_container").show();
-        init();
+         init();
+        var timer = null;
+        timer = setTimeout(function(){
+	        $("#loadingPage").hide();
+	        $(".btn-music").show();
+	        $("#animation_container").show();
+	        clearTimeout(timer);
+	        timer=null;
+        },500);
     }else{
         var imgLoad = 0;
         if(imgArray.length>0){
@@ -24,18 +29,18 @@ function ImgLoadingByFile(imgArray){
                     console.log(percent);
 //                  if(percent>=100){
                         if(percent >= 100) {
-                        	
+                        	init();
                         	var timer = null;
                         	timer = setTimeout(function(){
                         		$("#loadingPage").hide();
                         		$('#img-loading-txt').html('100%');
                         		$(".btn-music").show();
                             	$("#animation_container").show();
-                                 init();
+                                 
                             	sessionStorage.setItem("pageloaded", "true");       
                              	clearTimeout(timer);
             					timer=null;
-                        	},300);
+                        	},500);
                             
                         }
 //                  }

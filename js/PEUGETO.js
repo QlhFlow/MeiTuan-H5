@@ -41,7 +41,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,750,1206);
 (lib.setsdgs = function() {
 	this.initialize(img.setsdgs);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,750,1206);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,750,1206);
+
+
+(lib.stwetetw = function() {
+	this.initialize(img.stwetetw);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,542,87);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -71,7 +77,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// 图层 3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("EAZJBJWIBAg4EACcBJWIXt0xEARlBJWIIkngEAKABJWIQJuJA6IS2MA0RgtxA6IMOMA0RgtyA6IFlMA0RgtxA6IhCMA0RgtyA6InqMA0RgtyA6IuSMA0RgtyA6I06MA0RgtyA6I7jMA0RgtyA6IZeMA0RgtxEgaIAgGMA0RgtxEgaIAmuMA0RgtxEgaIAtXMA0RgtyEgaIAz/MA0RgtzEgaIA6nMA0RgtzEgaIBBPMA0RgtyEgZZBHOMAzigtJEgSGBHdMAsPgmwEgFIBJWIfR7ZEgMsBJWMAm1giB");
+	this.shape.graphics.f().s("#183851").p("EAZJBJWIBAg4EAKABJWIQJuJEARlBJWIIkngEACcBJWIXt0xEgMsBJWMAm1giBEgFIBJWIfR7ZEgSGBHdMAsPgmwEgZZBHOMAzigtJEgaIBBPMA0RgtyEgaIA6nMA0RgtzEgaIAz/MA0RgtzEgaIAtXMA0RgtyEgaIAmuMA0RgtxEgaIAgGMA0RgtxA6IZeMA0RgtxA6I7jMA0RgtyA6I06MA0RgtyA6IuSMA0RgtyA6InqMA0RgtyA6IhCMA0RgtyA6IFlMA0RgtxA6IMOMA0RgtyA6IS2MA0Rgtx");
 	this.shape.setTransform(1317.2,718.2);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -96,7 +102,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// 图层 3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("Egb3hARIMIqnEgb3hG5IEjj/Egb3gsYMAi0gegEgb3gzAIbQ34Egb3g5pITsxPA74/HMAx9grxEgb4glvMAqZglJA744fMA3xgw3A74x3MA3xgw3Egb3BERMA3wgw1Egb3A9pMA3wgw1Egb3A3BMA3wgw2Egb3AwZMA3wgw1Egb3ApxMA3wgw1Egb3AjJMA3wgw1A74chMA3xgw1A74V5MA3xgw1A74PRMA3xgw2A74IpMA3xgw2A74CAMA3xgw1A74knMA3xgw2A74rPMA3xgw2Egb3BK5MA3wgw1");
+	this.shape.graphics.f().s("#183851").p("Egb3hG5IEjj/Egb3hARIMIqnEgb3BK5MA3wgw1A74rPMA3xgw2A74knMA3xgw2A74CAMA3xgw1A74IpMA3xgw2A74PRMA3xgw2A74V5MA3xgw1A74chMA3xgw1Egb3AjJMA3wgw1Egb3ApxMA3wgw1Egb3AwZMA3wgw1Egb3A3BMA3wgw2Egb3A9pMA3wgw1Egb3BERMA3wgw1A74x3MA3xgw3A744fMA3xgw3Egb4glvMAqZglJA74/HMAx9grxEgb3g5pITsxPEgb3gzAIbQ34Egb3gsYMAi0geg");
 	this.shape.setTransform(2039.4,754.7);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -121,7 +127,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// 图层 3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("EgqGhMpIC7ijEgqGhGBIKfpLEgqGg/ZISDvzEgqFA+hMBUMhJuEgqFA35MBUMhJuEgqGAxRMBUNhJvEgqGAqpMBUNhJvEgqGAkAMBUNhJuEgqGAdYMBUNhJuEgqGAWwMBUNhJuEgqGAQIMBUNhJuEgqGAJgMBUNhJuEgqGAC4MBUNhJvEgqFgDvMBUMhJwEgqGg4wIZo2cEgqGgyIMAhMgdEEgqGgrgMAoxgjsEgqGgk4MAwUgqUEgqGgeQMA35gw8EgqGgXoMA/dg3kEgqFgRAMBHAg+MEgqFgKYMBOlhE0EgmcBPNMBQjhGiEge4BPNMBI/g/6EgXUBPNMBBbg5SEgPvBPNMA52gyqEgILBPNMAySgsCEgqFBLxMBUMhJvEgqFBFJMBUMhJu");
+	this.shape.graphics.f().s("#183851").p("EgqGhMpIC7ijEgqGhGBIKfpLEgqGg/ZISDvzEgqGAQIMBUNhJuEgqGAWwMBUNhJuEgqGAdYMBUNhJuEgqGAkAMBUNhJuEgqGAqpMBUNhJvEgqGAxRMBUNhJvEgqFA35MBUMhJuEgqFA+hMBUMhJuEgqFgKYMBOlhE0EgqFgRAMBHAg+MEgqGgXoMA/dg3kEgqGgeQMA35gw8EgqGgk4MAwUgqUEgqGgrgMAoxgjsEgqGgyIMAhMgdEEgqGg4wIZo2cEgqFgDvMBUMhJwEgqGAC4MBUNhJvEgqGAJgMBUNhJuEgqFBFJMBUMhJuEgqFBLxMBUMhJvEgILBPNMAySgsCEgPvBPNMA52gyqEgXUBPNMBBbg5SEge4BPNMBI/g/6EgmcBPNMBQjhGi");
 	this.shape.setTransform(4864.5,1163.5);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -146,7 +152,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// 图层 3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("EhB9hAMIZT2JEhB9g5jMAg3gcyEhB9gy7MAocgjaEhB9gsTMAwAgqCEhB9glrMA3kgwqEhB9gfDMA/Jg3SEhB9gYbMBGsg96EhB9gLKMBV1hLKEhB9gEiMBdZhRyEhB9ACGMBk9hYaEhB9AIuMBsihfCEhB9gRyMBORhEjEhB+Ap3MCD9hziEhB+AjPMCD9hziEhB+AwfMCD9hziEhB+BEYMCD9hzjEhB+BLAMCD9hzjEgSXBWVMBUWhJ3EgKzBWVMBMyhDPEgDPBWVMBFOg8nEgZ8BWVMBb7hQfEghgBWVMBjfhXGEgpEBWVMBrDhdvEgwpBWVMByohkWEg4NBWVMB6Mhq/Eg/yBWVMCBxhxnEhB+BRoMCD9hziEhB+A9wMCD9hzjEhB+A3HMCD9hziEhB9APWMB0GhlqEhB9AV+MB7qhsSEhB+AcmMCDQhy6");
+	this.shape.graphics.f().s("#183851").p("EhB9gRyMBORhEjEhB9AIuMBsihfCEhB9ACGMBk9hYaEhB9gEiMBdZhRyEhB9gLKMBV1hLKEhB9gYbMBGsg96EhB9gfDMA/Jg3SEhB9glrMA3kgwqEhB9gsTMAwAgqCEhB9gy7MAocgjaEhB9g5jMAg3gcyEhB9hAMIZT2JEhB+AcmMCDQhy6EhB9AV+MB7qhsSEhB9APWMB0GhlqEhB+A3HMCD9hziEhB+A9wMCD9hzjEhB+BRoMCD9hziEg/yBWVMCBxhxnEg4NBWVMB6Mhq/EgwpBWVMByohkWEgpEBWVMBrDhdvEghgBWVMBjfhXGEgZ8BWVMBb7hQfEgDPBWVMBFOg8nEgKzBWVMBMyhDPEgSXBWVMBUWhJ3EhB+BLAMCD9hzjEhB+BEYMCD9hzjEhB+AwfMCD9hziEhB+AjPMCD9hziEhB+Ap3MCD9hzi");
 	this.shape.setTransform(4896.3,962.8);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -171,7 +177,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// 图层 3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("Egt8goKIVbywEgt8guyIVbywEgt8g1aIVbywEAtQBILIAtgoEAeGBILIP3t5EAlrBILIISnQEAHZBILIfn7rEgW3BILMA3cgwkEgAKBILMAgvgcrEgHvBILMAoUgjTEgPTBILMAv4gp7EAO+BILIe/7JEAWiBILIXb0gEgt8ga6Iei6vEgt8ghiIW+0HEgt8AGOMAn2gi4Egt8AM2MAvagpgEgt8gAZMAhegdTEgt8gHBMAhegdTEgt8gNpMAhegdUEgt8gURMAhegdUEgecBILMA5lgybEgt8BB4MBCBg51EgmABILMA6Fgy4EgtlBILMBBqg5gEgt8A7QMBCBg51Egt8At/MA3sgwxEgt8A0oMA/Qg3aEgt8ATeMAzvgtTEgt8AaHMAzvgtUEgt8AgvMAzvgtUEgt8AnXMAzvgtU");
+	this.shape.graphics.f().s("#183851").p("Egt8guyIVbywEgt8goKIVbywEgt8g1aIVbywEAtQBILIAtgoEAlrBILIISnQEAeGBILIP3t5EAWiBILIXb0gEAO+BILIe/7JEgPTBILMAv4gp7EgHvBILMAoUgjTEgAKBILMAgvgcrEgW3BILMA3cgwkEAHZBILIfn7rEgt8AnXMAzvgtUEgt8AgvMAzvgtUEgt8AaHMAzvgtUEgt8ATeMAzvgtTEgt8A0oMA/Qg3aEgt8At/MA3sgwxEgt8A7QMBCBg51EgtlBILMBBqg5gEgmABILMA6Fgy4Egt8BB4MBCBg51EgecBILMA5lgybEgt8gURMAhegdUEgt8gNpMAhegdUEgt8gHBMAhegdTEgt8gAZMAhegdTEgt8AM2MAvagpgEgt8AGOMAn2gi4Egt8ghiIW+0HEgt8ga6Iei6v");
 	this.shape.setTransform(-494.2,-543.8);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -196,7 +202,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// 图层 3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("EAfmBEtIFjk3EAYCBEtINHrfEAQdBEtIUsyHEAI5BEtIcQ4vEABUBEtMAj1gfYEglIAqvMBKRhBCEglIAQOMBKQhBBEglIAW2MBKQhBBEglIAdfMBKRhBCEglIAkGMBKRhBBEglIAxXMBKRhBCEglIA3/MBKRhBBEglIA+nMBKRhBCEgGPBEtMArYgmAEgVYBEtMA6hgzQEgN0BEtMAy9gsoEgc8BEtMBCFg54EgkhBEtMBJqhAgEglIgDpMBKRhBDEglIAC+MBKQhBCEglIAJmMBKQhBB");
+	this.shape.graphics.f().s("#183851").p("EAYCBEtINHrfEAfmBEtIFjk3EABUBEtMAj1gfYEAI5BEtIcQ4vEAQdBEtIUsyHEgkhBEtMBJqhAgEgc8BEtMBCFg54EgN0BEtMAy9gsoEgVYBEtMA6hgzQEgGPBEtMArYgmAEglIA+nMBKRhBCEglIA3/MBKRhBBEglIAxXMBKRhBCEglIAkGMBKRhBBEglIAdfMBKRhBCEglIAW2MBKQhBBEglIAQOMBKQhBBEglIAqvMBKRhBCEglIAJmMBKQhBBEglIAC+MBKQhBCEglIgDpMBKRhBD");
 	this.shape.setTransform(1653.3,-2831.4);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -221,7 +227,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// 图层 3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("EBIBA9VIHVmbEBAdA9VIO6tDEAxUA9VIeD6UEA44A9VIWezsEApvA9VMAlogg8EAiLA9VMAtMgnkEAamA9VMA0xguMEATCA9VMA8Vg00EALeA9VMBD4g7cEAD5A9VMBLdhCDEgDqA9VMBTAhIrEgLOA9VMBakhPTEgSzA9VMBiJhV7EgaXA9VMBpthcjEgh8A9VMBxShjMEgpgA9VMB42hp0EgxEA9VMCAahwcEhPWA9VMCMEh6pEhHxA9VMCMEh6pEhANA9VMCMEh6pEg4oA9VMCH+h3E");
+	this.shape.graphics.f().s("#183851").p("EBAdA9VIO6tDEBIBA9VIHVmbEApvA9VMAlogg8EA44A9VIWezsEAxUA9VIeD6UEgLOA9VMBakhPTEgDqA9VMBTAhIrEAD5A9VMBLdhCDEALeA9VMBD4g7cEATCA9VMA8Vg00EAamA9VMA0xguMEAiLA9VMAtMgnkEg4oA9VMCH+h3EEhANA9VMCMEh6pEhHxA9VMCMEh6pEhPWA9VMCMEh6pEgxEA9VMCAahwcEgpgA9VMB42hp0Egh8A9VMBxShjMEgaXA9VMBpthcjEgSzA9VMBiJhV7");
 	this.shape.setTransform(1379.6,392.9);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -246,7 +252,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// 图层 3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("EA1aBWjMBhihVaEA8+BWjMBZ+hOyEBEjBWjMBSZhIKEBMHBWjMBK1hBhEBTsBWjMBDQg65EiW8BWjMDFqitFEhphBWjMDFpitEEhxGBWjMDFqitEEh4qBWjMDFpitEEiAOBWjMDFpitEEiHzBWjMDFqitFEiPXBWjMDFqitFEhh9BWjMDFqitFEhaYBWjMDFqitFEhDrBWjMDFqitFEg8HBWjMDFqitFEg0iBWjMDFqitFEhLPBWjMDFpitFEhS0BWjMDFqitFEgs+BWjMDD6irjEAIABWjMCO8h9KEAAbBWjMCWhiDyEgHIBWjMCeEiKaEgOtBWjMClpiRCEgWRBWjMCtNiXrEgd1BWjMC0xieTEglZBWjMC8Vik7EAetBWjMB4PhpSEAmRBWjMBwrhipEAt2BWjMBpGhcBEAXIBWjMB/0hv6EAPkBWjMCHYh2i");
+	this.shape.graphics.f().s("#183851").p("EBTsBWjMBDQg65EBMHBWjMBK1hBhEBEjBWjMBSZhIKEA8+BWjMBZ+hOyEA1aBWjMBhihVaEiW8BWjMDFqitFEAPkBWjMCHYh2iEAXIBWjMB/0hv6EAt2BWjMBpGhcBEAmRBWjMBwrhipEAetBWjMB4PhpSEglZBWjMC8Vik7Egd1BWjMC0xieTEgWRBWjMCtNiXrEgOtBWjMClpiRCEgHIBWjMCeEiKaEAAbBWjMCWhiDyEAIABWjMCO8h9KEgs+BWjMDD6irjEhS0BWjMDFqitFEhLPBWjMDFpitFEg0iBWjMDFqitFEg8HBWjMDFqitFEhDrBWjMDFqitFEhaYBWjMDFqitFEhh9BWjMDFqitFEiPXBWjMDFqitFEiHzBWjMDFqitFEiAOBWjMDFpitEEh4qBWjMDFpitEEhxGBWjMDFqitEEhphBWjMDFpitE");
 	this.shape.setTransform(966.4,994.5);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -271,7 +277,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// 图层 3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("EgkHgP6MBIOg/REgkHgJSMBIOg/REgkHgCqMBIOg/REgkHAD9MBIOg/QEgkHAKlMBIOg/PEgkHARNMBIOg/PEgkHAX1MBIOg/PEAdWBPLIGyl8EAVxBPLIOXskEAONBPLIV7zMEAGoBPLIdg50EgA7BPLMAlDggcEgIfBPLMAsngnEEgQEBPLMA0MgttEgkHAeeMBIOg/QEgkHAlGMBIOg/PEgkHAruMBIOg/PEgkHAyWMBIOg/PEgkHA4+MBIOg/PEgkHA/nMBIOg/REgkHBGPMBIOg/REgkHBM3MBIOg/REgXoBPMMA7wg0VEgfNBPMMBDUg6+");
+	this.shape.graphics.f().s("#183851").p("EgQEBPLMA0MgttEgIfBPLMAsngnEEgA7BPLMAlDggcEAGoBPLIdg50EAONBPLIV7zMEAVxBPLIOXskEAdWBPLIGyl8EgfNBPMMBDUg6+EgXoBPMMA7wg0VEgkHBM3MBIOg/REgkHBGPMBIOg/REgkHA/nMBIOg/REgkHA4+MBIOg/PEgkHAyWMBIOg/PEgkHAruMBIOg/PEgkHAlGMBIOg/PEgkHAeeMBIOg/QEgkHAX1MBIOg/PEgkHARNMBIOg/PEgkHAKlMBIOg/PEgkHAD9MBIOg/QEgkHgCqMBIOg/REgkHgJSMBIOg/REgkHgP6MBIOg/R");
 	this.shape.setTransform(1416.1,613.1);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -302,14 +308,14 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.lf(["#003366","rgba(0,51,102,0)"],[0,1],0.7,-13.9,0.7,7.5).s().p("Aj9A8ID+jFID9DEIAABOIj9jEIj+DFg");
-	this.shape.setTransform(25.4,13.8);
+	this.instance = new lib.stwetetw();
+	this.instance.parent = this;
+	this.instance.setTransform(2,0,0.913,0.913);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,50.8,27.6);
+p.nominalBounds = new cjs.Rectangle(2,0,494.9,79.5);
 
 
 (lib.元件123 = function(mode,startPosition,loop) {
@@ -383,7 +389,7 @@ p.nominalBounds = new cjs.Rectangle(108.5,0,524.1,209.5);
 	this.shape.setTransform(104.1,99.8);
 	this.shape._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(14).to({_off:false},0).wait(96));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(14).to({_off:false},0).to({_off:true},95).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(35.7,12.4,136.9,174.7);
@@ -512,6 +518,24 @@ p.nominalBounds = new cjs.Rectangle(35.7,12.4,136.9,174.7);
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.元件101, new cjs.Rectangle(0,0,809.2,1255.9), null);
+
+
+(lib.元件100 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 图层 2
+	this.shape = new cjs.Shape();
+	this.shape.graphics.lf(["#003366","rgba(0,51,102,0)"],[0,1],0.7,-13.9,0.7,7.5).s().p("Aj9A8ID+jFID9DEIAABOIj9jEIj+DFg");
+	this.shape.setTransform(25.4,40.4);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.lf(["#003366","rgba(0,51,102,0)"],[0,1],0.7,-13.9,0.7,7.5).s().p("Aj9A8ID+jFID9DEIAABOIj9jEIj+DFg");
+	this.shape_1.setTransform(25.4,23.6);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1,p:{y:23.6}},{t:this.shape,p:{y:40.4}}]}).to({state:[{t:this.shape_1,p:{y:19.1}},{t:this.shape,p:{y:35.4}}]},5).wait(6));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,9.8,50.8,44.3);
 
 
 (lib.元件98 = function(mode,startPosition,loop) {
@@ -2280,7 +2304,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,186.4,184.3);
 
 	// 图层 1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("EA8eA1GIALgKEAlwA1GIW50CEAtVA1GIPUtaEA05A1GIHwmyEg8oA1GMB5QhqLEg1EA1GMBxshjjEgtfA1GMBqHhc7Egl7A1GMBijhWSEgeWA1GMBa+hPqEgWyA1GMBTahJCEgPOA1GMBL2hCaEgHpA1GMBERg7yEgAFA1GMA8tg1KEAHfA1GMA1JguiEAPDA1GMAtlgn6EAWoA1GMAmBghSEAeMA1GIed6r");
+	this.shape.graphics.f().s("#183851").p("EA8eA1GIALgKEA05A1GIHwmyEAtVA1GIPUtaEAlwA1GIW50CEAeMA1GIed6rEAWoA1GMAmBghSEAPDA1GMAtlgn6EAHfA1GMA1JguiEgAFA1GMA8tg1KEgHpA1GMBERg7yEgPOA1GMBL2hCaEgWyA1GMBTahJCEgeWA1GMBa+hPqEgl7A1GMBijhWSEgtfA1GMBqHhc7Eg1EA1GMBxshjjEg8oA1GMB5QhqL");
 	this.shape.setTransform(4982.3,-793.3);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -2300,7 +2324,7 @@ p.nominalBounds = new cjs.Rectangle(4593.2,-1134.1,777.3,681.6);
 
 	// 图层 1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("Eg0SghuINxsEEg0SgoWIGNlcEg0SATSMBKThBEEg0SAGCMA7Lgz0Eg0SgAlMAzngtNEg0SgHNMAsDgmlEg0SgN2MAkegf8Eg0SgUeIc65UEg0SgbGIVWysEg0SAMqMBCvg6cEg0SAtzMBolhblEg0SAnLMBhBhU9Eg0SAgjMBZchOVEg0SAZ7MBR4hHt");
+	this.shape.graphics.f().s("#183851").p("Eg0SgoWIGNlcEg0SghuINxsEEg0SAMqMBCvg6cEg0SgbGIVWysEg0SgUeIc65UEg0SgN2MAkegf8Eg0SgHNMAsDgmlEg0SgAlMAzngtNEg0SAGCMA7Lgz0Eg0SATSMBKThBEEg0SAZ7MBR4hHtEg0SAgjMBZchOVEg0SAnLMBhBhU9Eg0SAtzMBolhbl");
 	this.shape.setTransform(3070.8,2189.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -2314,7 +2338,7 @@ p.nominalBounds = new cjs.Rectangle(2735.1,1895,671.4,588.2);
 
 	// 图层 1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#183851").p("Egpggd7IHVmaEgpggXSIO6tDEgpggQqIWezrEgpggKCIeD6TEgpggDaMAlngg7EgpgADNMAtLgniEgpgAJ1MA0vguKEgpgAQeMA8Tg0zEgpgAXGMBD4g7bEgpgAduMBLchCDEgpgAkWMBTBhIr");
+	this.shape.graphics.f().s("#183851").p("EgpggQqIWezrEgpggXSIO6tDEgpggd7IHVmaEgpgAduMBLchCDEgpgAXGMBD4g7bEgpgAQeMA8Tg0zEgpgAJ1MA0vguKEgpgADNMAtLgniEgpggDaMAlngg7EgpggKCIeD6TEgpgAkWMBTBhIr");
 	this.shape.setTransform(3003.9,232.6);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -2608,24 +2632,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,48.6,48.6);
 p.nominalBounds = null;
 
 
-(lib.元件100 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 图层 2
-	this.instance = new lib.元件128("synched",0);
-	this.instance.parent = this;
-	this.instance.setTransform(25.4,41.5,1,1,0,0,0,25.4,14.9);
-
-	this.instance_1 = new lib.元件128("synched",0);
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(25.4,24.7,1,1,0,0,0,25.4,14.9);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1,p:{y:24.7}},{t:this.instance,p:{y:41.5}}]}).to({state:[{t:this.instance_1,p:{y:20.2}},{t:this.instance,p:{y:36.5}}]},3).wait(4));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,9.8,50.8,44.3);
-
-
 (lib.元件99 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -2736,7 +2742,7 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 	var mask_graphics_14 = new cjs.Graphics().p("EgwoAwnQ0I0IAA8fQAA8fUI0JQUK0HcegBQcfABUIUHQUKUJAAcfQAAcf0KUIQ0IUK8fgBQ8eAB0K0Kg");
 	var mask_graphics_15 = new cjs.Graphics().p("EgxeAxdQ0e0fAA8+QAA8+Ue0gQUg0ec+AAQc/AAUeUeQUgUgAAc+QAAc+0gUfQ0eUg8/AAQ8+AA0g0gg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(9).to({graphics:mask_graphics_9,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_10,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_11,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_12,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_13,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_14,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_15,x:367.7,y:218.1}).wait(75).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(9).to({graphics:mask_graphics_9,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_10,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_11,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_12,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_13,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_14,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_15,x:367.7,y:218.1}).wait(78).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 图层 2
 	this.shape = new cjs.Shape();
@@ -2761,7 +2767,7 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},9).to({state:[]},81).wait(44));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},9).to({state:[]},84).wait(41));
 
 	// 元件 51
 	this.instance = new lib.元件51("synched",0);
@@ -2769,7 +2775,7 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 	this.instance.setTransform(366.1,222.6,1,1,0,0,0,183.2,35.7);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({startPosition:0},7,cjs.Ease.get(1)).to({_off:true},78).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({startPosition:0},7,cjs.Ease.get(1)).to({_off:true},81).wait(41));
 
 	// 元件 50
 	this.instance_1 = new lib.元件50("synched",0);
@@ -2777,7 +2783,7 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 	this.instance_1.setTransform(528.7,181.9,0.039,1,0,0,0,114.7,0.1);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(12).to({_off:false},0).to({regY:0,scaleX:1,y:181.8},7,cjs.Ease.get(1)).to({_off:true},71).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(12).to({_off:false},0).to({regY:0,scaleX:1,y:181.8},7,cjs.Ease.get(1)).to({_off:true},74).wait(41));
 
 	// 元件 49
 	this.instance_2 = new lib.元件49("synched",0);
@@ -2786,7 +2792,7 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(9).to({_off:false},0).to({alpha:1},6).to({_off:true},75).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(9).to({_off:false},0).to({alpha:1},6).to({_off:true},78).wait(41));
 
 	// 图层 12 (mask)
 	var mask_1 = new cjs.Shape();
@@ -2800,7 +2806,7 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 	var mask_1_graphics_6 = new cjs.Graphics().p("AlbGnIAAtNIK3AAIAANNg");
 	var mask_1_graphics_7 = new cjs.Graphics().p("AlbGuIAAtbIK3AAIAANbg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:mask_1_graphics_0,x:550.1,y:169.3}).wait(1).to({graphics:mask_1_graphics_1,x:549.7,y:182.5}).wait(1).to({graphics:mask_1_graphics_2,x:549.3,y:193.7}).wait(1).to({graphics:mask_1_graphics_3,x:549,y:202.8}).wait(1).to({graphics:mask_1_graphics_4,x:548.8,y:209.9}).wait(1).to({graphics:mask_1_graphics_5,x:548.7,y:215}).wait(1).to({graphics:mask_1_graphics_6,x:548.6,y:218}).wait(1).to({graphics:mask_1_graphics_7,x:548.5,y:219}).wait(83).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:mask_1_graphics_0,x:550.1,y:169.3}).wait(1).to({graphics:mask_1_graphics_1,x:549.7,y:182.5}).wait(1).to({graphics:mask_1_graphics_2,x:549.3,y:193.7}).wait(1).to({graphics:mask_1_graphics_3,x:549,y:202.8}).wait(1).to({graphics:mask_1_graphics_4,x:548.8,y:209.9}).wait(1).to({graphics:mask_1_graphics_5,x:548.7,y:215}).wait(1).to({graphics:mask_1_graphics_6,x:548.6,y:218}).wait(1).to({graphics:mask_1_graphics_7,x:548.5,y:219}).wait(86).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 48
 	this.instance_3 = new lib.元件48("synched",0);
@@ -2813,7 +2819,7 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_1;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},90).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},93).wait(41));
 
 	// 图层 11 (mask)
 	var mask_2 = new cjs.Shape();
@@ -2827,7 +2833,7 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 	var mask_2_graphics_6 = new cjs.Graphics().p("Egh1AE3IOP2WMA0AAMpIBcWWg");
 	var mask_2_graphics_7 = new cjs.Graphics().p("EgicAEzIOP2WMA05AMyIBxWWg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:mask_2_graphics_0,x:120.9,y:193.8}).wait(1).to({graphics:mask_2_graphics_1,x:157.9,y:199.6}).wait(1).to({graphics:mask_2_graphics_2,x:189.2,y:204.5}).wait(1).to({graphics:mask_2_graphics_3,x:214.9,y:208.6}).wait(1).to({graphics:mask_2_graphics_4,x:234.8,y:211.7}).wait(1).to({graphics:mask_2_graphics_5,x:250.5,y:214}).wait(1).to({graphics:mask_2_graphics_6,x:262.2,y:215.3}).wait(1).to({graphics:mask_2_graphics_7,x:266.1,y:215.8}).wait(83).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:mask_2_graphics_0,x:120.9,y:193.8}).wait(1).to({graphics:mask_2_graphics_1,x:157.9,y:199.6}).wait(1).to({graphics:mask_2_graphics_2,x:189.2,y:204.5}).wait(1).to({graphics:mask_2_graphics_3,x:214.9,y:208.6}).wait(1).to({graphics:mask_2_graphics_4,x:234.8,y:211.7}).wait(1).to({graphics:mask_2_graphics_5,x:250.5,y:214}).wait(1).to({graphics:mask_2_graphics_6,x:262.2,y:215.3}).wait(1).to({graphics:mask_2_graphics_7,x:266.1,y:215.8}).wait(86).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 47
 	this.instance_4 = new lib.元件47("synched",0);
@@ -2840,14 +2846,14 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_2;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true},90).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true},93).wait(41));
 
 	// 图层 13 (mask)
 	var mask_3 = new cjs.Shape();
 	mask_3._off = true;
 	var mask_3_graphics_0 = new cjs.Graphics().p("AqJB3IAAjtIUTAAIAADtg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:mask_3_graphics_0,x:287.9,y:174.4}).wait(90).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:mask_3_graphics_0,x:287.9,y:174.4}).wait(93).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 46
 	this.instance_5 = new lib.元件46("synched",0);
@@ -2861,14 +2867,14 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_3;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(8).to({_off:false},0).to({y:181.3},6,cjs.Ease.get(1)).to({_off:true},76).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(8).to({_off:false},0).to({y:181.3},6,cjs.Ease.get(1)).to({_off:true},79).wait(41));
 
 	// 图层 14 (mask)
 	var mask_4 = new cjs.Shape();
 	mask_4._off = true;
 	var mask_4_graphics_8 = new cjs.Graphics().p("As2B7IAAj1IZtAAIAAD1g");
 
-	this.timeline.addTween(cjs.Tween.get(mask_4).to({graphics:null,x:0,y:0}).wait(8).to({graphics:mask_4_graphics_8,x:445.6,y:270}).wait(82).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_4).to({graphics:null,x:0,y:0}).wait(8).to({graphics:mask_4_graphics_8,x:445.6,y:270}).wait(85).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 45
 	this.instance_6 = new lib.元件45("synched",0);
@@ -2882,7 +2888,7 @@ p.nominalBounds = new cjs.Rectangle(0,84.8,546,529.1);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_4;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(8).to({_off:false},0).to({y:265.6},6,cjs.Ease.get(1)).to({_off:true},76).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(8).to({_off:false},0).to({y:265.6},6,cjs.Ease.get(1)).to({_off:true},79).wait(41));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
@@ -2902,7 +2908,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	var mask_graphics_14 = new cjs.Graphics().p("EgwoAwnQ0I0IAA8fQAA8fUI0JQUK0HcegBQcfABUIUHQUKUJAAcfQAAcf0KUIQ0IUK8fgBQ8eAB0K0Kg");
 	var mask_graphics_15 = new cjs.Graphics().p("EgxeAxdQ0e0fAA8+QAA8+Ue0gQUg0ec+AAQc/AAUeUeQUgUgAAc+QAAc+0gUfQ0eUg8/AAQ8+AA0g0gg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(9).to({graphics:mask_graphics_9,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_10,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_11,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_12,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_13,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_14,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_15,x:367.7,y:218.1}).wait(75).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(9).to({graphics:mask_graphics_9,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_10,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_11,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_12,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_13,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_14,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_15,x:367.7,y:218.1}).wait(78).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 图层 2
 	this.shape = new cjs.Shape();
@@ -2927,7 +2933,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},9).to({state:[]},81).wait(44));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},9).to({state:[]},84).wait(41));
 
 	// 元件 51
 	this.instance = new lib.元件51_1("synched",0);
@@ -2935,7 +2941,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	this.instance.setTransform(366.1,222.6,1,1,0,0,0,183.2,35.7);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({startPosition:0},7,cjs.Ease.get(1)).to({_off:true},78).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({startPosition:0},7,cjs.Ease.get(1)).to({_off:true},81).wait(41));
 
 	// 元件 50
 	this.instance_1 = new lib.元件50_1("synched",0);
@@ -2943,7 +2949,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	this.instance_1.setTransform(528.7,181.9,0.039,1,0,0,0,114.7,0.1);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(12).to({_off:false},0).to({regY:0,scaleX:1,y:181.8},7,cjs.Ease.get(1)).to({_off:true},71).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(12).to({_off:false},0).to({regY:0,scaleX:1,y:181.8},7,cjs.Ease.get(1)).to({_off:true},74).wait(41));
 
 	// 元件 49
 	this.instance_2 = new lib.元件49_1("synched",0);
@@ -2952,7 +2958,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(9).to({_off:false},0).to({alpha:1},6).to({_off:true},75).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(9).to({_off:false},0).to({alpha:1},6).to({_off:true},78).wait(41));
 
 	// 图层 12 (mask)
 	var mask_1 = new cjs.Shape();
@@ -2966,7 +2972,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	var mask_1_graphics_6 = new cjs.Graphics().p("AlbGnIAAtNIK3AAIAANNg");
 	var mask_1_graphics_7 = new cjs.Graphics().p("AlbGuIAAtbIK3AAIAANbg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:mask_1_graphics_0,x:550.1,y:169.3}).wait(1).to({graphics:mask_1_graphics_1,x:549.7,y:182.5}).wait(1).to({graphics:mask_1_graphics_2,x:549.3,y:193.7}).wait(1).to({graphics:mask_1_graphics_3,x:549,y:202.8}).wait(1).to({graphics:mask_1_graphics_4,x:548.8,y:209.9}).wait(1).to({graphics:mask_1_graphics_5,x:548.7,y:215}).wait(1).to({graphics:mask_1_graphics_6,x:548.6,y:218}).wait(1).to({graphics:mask_1_graphics_7,x:548.5,y:219}).wait(83).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:mask_1_graphics_0,x:550.1,y:169.3}).wait(1).to({graphics:mask_1_graphics_1,x:549.7,y:182.5}).wait(1).to({graphics:mask_1_graphics_2,x:549.3,y:193.7}).wait(1).to({graphics:mask_1_graphics_3,x:549,y:202.8}).wait(1).to({graphics:mask_1_graphics_4,x:548.8,y:209.9}).wait(1).to({graphics:mask_1_graphics_5,x:548.7,y:215}).wait(1).to({graphics:mask_1_graphics_6,x:548.6,y:218}).wait(1).to({graphics:mask_1_graphics_7,x:548.5,y:219}).wait(86).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 48
 	this.instance_3 = new lib.元件48_1("synched",0);
@@ -2979,7 +2985,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_1;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},90).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},93).wait(41));
 
 	// 图层 11 (mask)
 	var mask_2 = new cjs.Shape();
@@ -2993,7 +2999,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	var mask_2_graphics_6 = new cjs.Graphics().p("Egh1AE3IOP2WMA0AAMpIBcWWg");
 	var mask_2_graphics_7 = new cjs.Graphics().p("EgicAEzIOP2WMA05AMyIBxWWg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:mask_2_graphics_0,x:120.9,y:193.8}).wait(1).to({graphics:mask_2_graphics_1,x:157.9,y:199.6}).wait(1).to({graphics:mask_2_graphics_2,x:189.2,y:204.5}).wait(1).to({graphics:mask_2_graphics_3,x:214.9,y:208.6}).wait(1).to({graphics:mask_2_graphics_4,x:234.8,y:211.7}).wait(1).to({graphics:mask_2_graphics_5,x:250.5,y:214}).wait(1).to({graphics:mask_2_graphics_6,x:262.2,y:215.3}).wait(1).to({graphics:mask_2_graphics_7,x:266.1,y:215.8}).wait(83).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:mask_2_graphics_0,x:120.9,y:193.8}).wait(1).to({graphics:mask_2_graphics_1,x:157.9,y:199.6}).wait(1).to({graphics:mask_2_graphics_2,x:189.2,y:204.5}).wait(1).to({graphics:mask_2_graphics_3,x:214.9,y:208.6}).wait(1).to({graphics:mask_2_graphics_4,x:234.8,y:211.7}).wait(1).to({graphics:mask_2_graphics_5,x:250.5,y:214}).wait(1).to({graphics:mask_2_graphics_6,x:262.2,y:215.3}).wait(1).to({graphics:mask_2_graphics_7,x:266.1,y:215.8}).wait(86).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 47
 	this.instance_4 = new lib.元件47_1("synched",0);
@@ -3006,14 +3012,14 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_2;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true},90).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true},93).wait(41));
 
 	// 图层 13 (mask)
 	var mask_3 = new cjs.Shape();
 	mask_3._off = true;
 	var mask_3_graphics_0 = new cjs.Graphics().p("AqJB3IAAjtIUTAAIAADtg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:mask_3_graphics_0,x:287.9,y:174.4}).wait(90).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:mask_3_graphics_0,x:287.9,y:174.4}).wait(93).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 46
 	this.instance_5 = new lib.元件46_1("synched",0);
@@ -3027,14 +3033,14 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_3;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(8).to({_off:false},0).to({y:181.3},6,cjs.Ease.get(1)).to({_off:true},76).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(8).to({_off:false},0).to({y:181.3},6,cjs.Ease.get(1)).to({_off:true},79).wait(41));
 
 	// 图层 14 (mask)
 	var mask_4 = new cjs.Shape();
 	mask_4._off = true;
 	var mask_4_graphics_8 = new cjs.Graphics().p("As2B7IAAj1IZtAAIAAD1g");
 
-	this.timeline.addTween(cjs.Tween.get(mask_4).to({graphics:null,x:0,y:0}).wait(8).to({graphics:mask_4_graphics_8,x:445.6,y:270}).wait(82).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_4).to({graphics:null,x:0,y:0}).wait(8).to({graphics:mask_4_graphics_8,x:445.6,y:270}).wait(85).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 45
 	this.instance_6 = new lib.元件45_1("synched",0);
@@ -3048,7 +3054,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_4;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(8).to({_off:false},0).to({y:265.6},6,cjs.Ease.get(1)).to({_off:true},76).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(8).to({_off:false},0).to({y:265.6},6,cjs.Ease.get(1)).to({_off:true},79).wait(41));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
@@ -3068,7 +3074,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	var mask_graphics_14 = new cjs.Graphics().p("EgwoAwnQ0I0IAA8fQAA8fUI0JQUK0HcegBQcfABUIUHQUKUJAAcfQAAcf0KUIQ0IUK8fgBQ8eAB0K0Kg");
 	var mask_graphics_15 = new cjs.Graphics().p("EgxeAxdQ0e0fAA8+QAA8+Ue0gQUg0ec+AAQc/AAUeUeQUgUgAAc+QAAc+0gUfQ0eUg8/AAQ8+AA0g0gg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(9).to({graphics:mask_graphics_9,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_10,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_11,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_12,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_13,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_14,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_15,x:367.7,y:218.1}).wait(75).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(9).to({graphics:mask_graphics_9,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_10,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_11,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_12,x:367.7,y:218}).wait(1).to({graphics:mask_graphics_13,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_14,x:367.7,y:218.1}).wait(1).to({graphics:mask_graphics_15,x:367.7,y:218.1}).wait(78).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 图层 2
 	this.shape = new cjs.Shape();
@@ -3093,7 +3099,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},9).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},6).to({state:[]},75).wait(44));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},9).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},6).to({state:[]},78).wait(41));
 
 	// 元件 51
 	this.instance = new lib.元件51_2("synched",0);
@@ -3101,7 +3107,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	this.instance.setTransform(366.1,222.6,1,1,0,0,0,183.2,35.7);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({startPosition:0},7,cjs.Ease.get(1)).to({_off:true},78).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({startPosition:0},7,cjs.Ease.get(1)).to({_off:true},81).wait(41));
 
 	// 元件 50
 	this.instance_1 = new lib.元件50_2("synched",0);
@@ -3109,7 +3115,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	this.instance_1.setTransform(528.7,181.9,0.039,1,0,0,0,114.7,0.1);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(12).to({_off:false},0).to({regY:0,scaleX:1,y:181.8},7,cjs.Ease.get(1)).to({_off:true},71).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(12).to({_off:false},0).to({regY:0,scaleX:1,y:181.8},7,cjs.Ease.get(1)).to({_off:true},74).wait(41));
 
 	// 元件 49
 	this.instance_2 = new lib.元件49_2("synched",0);
@@ -3118,7 +3124,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(9).to({_off:false},0).to({alpha:1},6).to({_off:true},75).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(9).to({_off:false},0).to({alpha:1},6).to({_off:true},78).wait(41));
 
 	// 图层 12 (mask)
 	var mask_1 = new cjs.Shape();
@@ -3132,7 +3138,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	var mask_1_graphics_6 = new cjs.Graphics().p("AlbGnIAAtNIK3AAIAANNg");
 	var mask_1_graphics_7 = new cjs.Graphics().p("AlbGuIAAtbIK3AAIAANbg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:mask_1_graphics_0,x:550.1,y:169.3}).wait(1).to({graphics:mask_1_graphics_1,x:549.7,y:182.5}).wait(1).to({graphics:mask_1_graphics_2,x:549.3,y:193.7}).wait(1).to({graphics:mask_1_graphics_3,x:549,y:202.8}).wait(1).to({graphics:mask_1_graphics_4,x:548.8,y:209.9}).wait(1).to({graphics:mask_1_graphics_5,x:548.7,y:215}).wait(1).to({graphics:mask_1_graphics_6,x:548.6,y:218}).wait(1).to({graphics:mask_1_graphics_7,x:548.5,y:219}).wait(83).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:mask_1_graphics_0,x:550.1,y:169.3}).wait(1).to({graphics:mask_1_graphics_1,x:549.7,y:182.5}).wait(1).to({graphics:mask_1_graphics_2,x:549.3,y:193.7}).wait(1).to({graphics:mask_1_graphics_3,x:549,y:202.8}).wait(1).to({graphics:mask_1_graphics_4,x:548.8,y:209.9}).wait(1).to({graphics:mask_1_graphics_5,x:548.7,y:215}).wait(1).to({graphics:mask_1_graphics_6,x:548.6,y:218}).wait(1).to({graphics:mask_1_graphics_7,x:548.5,y:219}).wait(86).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 48
 	this.instance_3 = new lib.元件48_2("synched",0);
@@ -3145,7 +3151,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_1;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},90).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},93).wait(41));
 
 	// 图层 11 (mask)
 	var mask_2 = new cjs.Shape();
@@ -3159,7 +3165,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 	var mask_2_graphics_6 = new cjs.Graphics().p("Egh1AE3IOP2WMA0AAMpIBcWWg");
 	var mask_2_graphics_7 = new cjs.Graphics().p("EgicAEzIOP2WMA05AMyIBxWWg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:mask_2_graphics_0,x:120.9,y:193.8}).wait(1).to({graphics:mask_2_graphics_1,x:157.9,y:199.6}).wait(1).to({graphics:mask_2_graphics_2,x:189.2,y:204.5}).wait(1).to({graphics:mask_2_graphics_3,x:214.9,y:208.6}).wait(1).to({graphics:mask_2_graphics_4,x:234.8,y:211.7}).wait(1).to({graphics:mask_2_graphics_5,x:250.5,y:214}).wait(1).to({graphics:mask_2_graphics_6,x:262.2,y:215.3}).wait(1).to({graphics:mask_2_graphics_7,x:266.1,y:215.8}).wait(83).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:mask_2_graphics_0,x:120.9,y:193.8}).wait(1).to({graphics:mask_2_graphics_1,x:157.9,y:199.6}).wait(1).to({graphics:mask_2_graphics_2,x:189.2,y:204.5}).wait(1).to({graphics:mask_2_graphics_3,x:214.9,y:208.6}).wait(1).to({graphics:mask_2_graphics_4,x:234.8,y:211.7}).wait(1).to({graphics:mask_2_graphics_5,x:250.5,y:214}).wait(1).to({graphics:mask_2_graphics_6,x:262.2,y:215.3}).wait(1).to({graphics:mask_2_graphics_7,x:266.1,y:215.8}).wait(86).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 47
 	this.instance_4 = new lib.元件47_2("synched",0);
@@ -3172,14 +3178,14 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_2;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true},90).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true},93).wait(41));
 
 	// 图层 13 (mask)
 	var mask_3 = new cjs.Shape();
 	mask_3._off = true;
 	var mask_3_graphics_0 = new cjs.Graphics().p("AqJB3IAAjtIUTAAIAADtg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:mask_3_graphics_0,x:287.9,y:174.4}).wait(90).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:mask_3_graphics_0,x:287.9,y:174.4}).wait(93).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 46
 	this.instance_5 = new lib.元件46_2("synched",0);
@@ -3193,14 +3199,14 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_3;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(8).to({_off:false},0).to({y:181.3},6,cjs.Ease.get(1)).to({_off:true},76).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(8).to({_off:false},0).to({y:181.3},6,cjs.Ease.get(1)).to({_off:true},79).wait(41));
 
 	// 图层 14 (mask)
 	var mask_4 = new cjs.Shape();
 	mask_4._off = true;
 	var mask_4_graphics_8 = new cjs.Graphics().p("As2B7IAAj1IZtAAIAAD1g");
 
-	this.timeline.addTween(cjs.Tween.get(mask_4).to({graphics:null,x:0,y:0}).wait(8).to({graphics:mask_4_graphics_8,x:445.6,y:270}).wait(82).to({graphics:null,x:0,y:0}).wait(44));
+	this.timeline.addTween(cjs.Tween.get(mask_4).to({graphics:null,x:0,y:0}).wait(8).to({graphics:mask_4_graphics_8,x:445.6,y:270}).wait(85).to({graphics:null,x:0,y:0}).wait(41));
 
 	// 元件 45
 	this.instance_6 = new lib.元件45_2("synched",0);
@@ -3214,7 +3220,7 @@ p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_4;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(8).to({_off:false},0).to({y:265.6},6,cjs.Ease.get(1)).to({_off:true},76).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(8).to({_off:false},0).to({y:265.6},6,cjs.Ease.get(1)).to({_off:true},79).wait(41));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(186.3,211.3,9.8,45);
@@ -3347,7 +3353,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25.7,25.7);
 	var mask_graphics_16 = new cjs.Graphics().p("At3IoIAAxPIbvAAIAARPg");
 	var mask_graphics_17 = new cjs.Graphics().p("At3JxIAAziIbvAAIAATig");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(10).to({graphics:mask_graphics_10,x:-42.7,y:112.5}).wait(1).to({graphics:mask_graphics_11,x:-42.7,y:105.1}).wait(1).to({graphics:mask_graphics_12,x:-42.7,y:97.7}).wait(1).to({graphics:mask_graphics_13,x:-42.7,y:90.2}).wait(1).to({graphics:mask_graphics_14,x:-42.7,y:82.8}).wait(1).to({graphics:mask_graphics_15,x:-42.7,y:75.4}).wait(1).to({graphics:mask_graphics_16,x:-42.7,y:67.9}).wait(1).to({graphics:mask_graphics_17,x:-42.7,y:60.5}).wait(52).to({graphics:null,x:0,y:0}).wait(36));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(10).to({graphics:mask_graphics_10,x:-42.7,y:112.5}).wait(1).to({graphics:mask_graphics_11,x:-42.7,y:105.1}).wait(1).to({graphics:mask_graphics_12,x:-42.7,y:97.7}).wait(1).to({graphics:mask_graphics_13,x:-42.7,y:90.2}).wait(1).to({graphics:mask_graphics_14,x:-42.7,y:82.8}).wait(1).to({graphics:mask_graphics_15,x:-42.7,y:75.4}).wait(1).to({graphics:mask_graphics_16,x:-42.7,y:67.9}).wait(1).to({graphics:mask_graphics_17,x:-42.7,y:60.5}).wait(25).to({graphics:null,x:0,y:0}).wait(63));
 
 	// 图层 2
 	this.shape = new cjs.Shape();
@@ -3361,7 +3367,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25.7,25.7);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(10).to({_off:false},0).to({_off:true},59).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(10).to({_off:false},0).to({_off:true},32).wait(63));
 
 	// 图层 1 (mask)
 	var mask_1 = new cjs.Shape();
@@ -3375,7 +3381,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25.7,25.7);
 	var mask_1_graphics_11 = new cjs.Graphics().p("AuDFkIVsxyIGbCqI2cVzg");
 	var mask_1_graphics_12 = new cjs.Graphics().p("AuQFvIWFyHIGcCkI22WNg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_1_graphics_5,x:306.1,y:100.3}).wait(1).to({graphics:mask_1_graphics_6,x:326.2,y:87}).wait(1).to({graphics:mask_1_graphics_7,x:343.2,y:75.9}).wait(1).to({graphics:mask_1_graphics_8,x:357,y:66.7}).wait(1).to({graphics:mask_1_graphics_9,x:367.8,y:59.6}).wait(1).to({graphics:mask_1_graphics_10,x:375.5,y:54.5}).wait(1).to({graphics:mask_1_graphics_11,x:380.2,y:51.4}).wait(1).to({graphics:mask_1_graphics_12,x:381.7,y:50.4}).wait(57).to({graphics:null,x:0,y:0}).wait(36));
+	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_1_graphics_5,x:306.1,y:100.3}).wait(1).to({graphics:mask_1_graphics_6,x:326.2,y:87}).wait(1).to({graphics:mask_1_graphics_7,x:343.2,y:75.9}).wait(1).to({graphics:mask_1_graphics_8,x:357,y:66.7}).wait(1).to({graphics:mask_1_graphics_9,x:367.8,y:59.6}).wait(1).to({graphics:mask_1_graphics_10,x:375.5,y:54.5}).wait(1).to({graphics:mask_1_graphics_11,x:380.2,y:51.4}).wait(1).to({graphics:mask_1_graphics_12,x:381.7,y:50.4}).wait(30).to({graphics:null,x:0,y:0}).wait(63));
 
 	// 元件 28
 	this.instance = new lib.元件28("synched",0);
@@ -3389,7 +3395,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25.7,25.7);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_1;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({_off:true},64).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({_off:true},37).wait(63));
 
 	// 图层 7 (mask)
 	var mask_2 = new cjs.Shape();
@@ -3403,7 +3409,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25.7,25.7);
 	var mask_2_graphics_11 = new cjs.Graphics().p("A27ClIhHlSMAwFgAyIAAG/g");
 	var mask_2_graphics_12 = new cjs.Graphics().p("A3XCkIhIlQMAw/gAzIAAG/g");
 
-	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_2_graphics_5,x:302.8,y:94.5}).wait(1).to({graphics:mask_2_graphics_6,x:265.3,y:94.3}).wait(1).to({graphics:mask_2_graphics_7,x:233.6,y:94.2}).wait(1).to({graphics:mask_2_graphics_8,x:207.7,y:94.1}).wait(1).to({graphics:mask_2_graphics_9,x:187.5,y:94.1}).wait(1).to({graphics:mask_2_graphics_10,x:173.1,y:94}).wait(1).to({graphics:mask_2_graphics_11,x:164.5,y:94}).wait(1).to({graphics:mask_2_graphics_12,x:161.6,y:94}).wait(57).to({graphics:null,x:0,y:0}).wait(36));
+	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_2_graphics_5,x:302.8,y:94.5}).wait(1).to({graphics:mask_2_graphics_6,x:265.3,y:94.3}).wait(1).to({graphics:mask_2_graphics_7,x:233.6,y:94.2}).wait(1).to({graphics:mask_2_graphics_8,x:207.7,y:94.1}).wait(1).to({graphics:mask_2_graphics_9,x:187.5,y:94.1}).wait(1).to({graphics:mask_2_graphics_10,x:173.1,y:94}).wait(1).to({graphics:mask_2_graphics_11,x:164.5,y:94}).wait(1).to({graphics:mask_2_graphics_12,x:161.6,y:94}).wait(30).to({graphics:null,x:0,y:0}).wait(63));
 
 	// 元件 27
 	this.instance_1 = new lib.元件27("synched",0);
@@ -3417,7 +3423,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25.7,25.7);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_2;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(5).to({_off:false},0).to({_off:true},64).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(5).to({_off:false},0).to({_off:true},37).wait(63));
 
 	// 元件 13
 	this.instance_2 = new lib.元件13("synched",0);
@@ -3425,7 +3431,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25.7,25.7);
 	this.instance_2.setTransform(314,92.6,14.045,14.045,0,0,0,3.6,3.6);
 	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:3.7,regY:3.7,scaleX:1.11,scaleY:1.11,x:315.4,y:94,alpha:1},7,cjs.Ease.get(1)).to({_off:true},62).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:3.7,regY:3.7,scaleX:1.11,scaleY:1.11,x:315.4,y:94,alpha:1},7,cjs.Ease.get(1)).to({_off:true},35).wait(63));
 
 	// 元件 13
 	this.instance_3 = new lib.元件13("synched",0);
@@ -3434,14 +3440,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,25.7,25.7);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(6).to({_off:false},0).to({regX:3.7,scaleX:1.11,scaleY:1.11,x:4.1,alpha:1},7,cjs.Ease.get(1)).to({_off:true},56).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(6).to({_off:false},0).to({regX:3.7,scaleX:1.11,scaleY:1.11,x:4.1,alpha:1},7,cjs.Ease.get(1)).to({_off:true},29).wait(63));
 
 	// 图层 8 (mask)
 	var mask_3 = new cjs.Shape();
 	mask_3._off = true;
 	var mask_3_graphics_11 = new cjs.Graphics().p("A3bGMIAAsXMAu3AAAIAAMXg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:null,x:0,y:0}).wait(11).to({graphics:mask_3_graphics_11,x:163.7,y:51.3}).wait(58).to({graphics:null,x:0,y:0}).wait(36));
+	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:null,x:0,y:0}).wait(11).to({graphics:mask_3_graphics_11,x:163.7,y:51.3}).wait(31).to({graphics:null,x:0,y:0}).wait(63));
 
 	// 元件 4
 	this.instance_4 = new lib.元件4("synched",0);
@@ -3455,7 +3461,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25.7,25.7);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_3;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(11).to({_off:false},0).to({y:52.4},8,cjs.Ease.get(1)).to({y:50.8},3,cjs.Ease.get(1)).to({y:52.4},3,cjs.Ease.get(1)).to({_off:true},44).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(11).to({_off:false},0).to({y:52.4},8,cjs.Ease.get(1)).to({y:50.8},3,cjs.Ease.get(1)).to({y:52.4},3,cjs.Ease.get(1)).to({_off:true},17).wait(63));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
@@ -3477,7 +3483,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	var mask_graphics_12 = new cjs.Graphics().p("AuQFvIWFyHIGcCkI22WNg");
 	var mask_graphics_97 = new cjs.Graphics().p("AuQFvIWFyHIGcCkI22WNg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_graphics_5,x:306.1,y:100.3}).wait(1).to({graphics:mask_graphics_6,x:326.2,y:87}).wait(1).to({graphics:mask_graphics_7,x:343.2,y:75.9}).wait(1).to({graphics:mask_graphics_8,x:357,y:66.7}).wait(1).to({graphics:mask_graphics_9,x:367.8,y:59.6}).wait(1).to({graphics:mask_graphics_10,x:375.5,y:54.5}).wait(1).to({graphics:mask_graphics_11,x:380.2,y:51.4}).wait(1).to({graphics:mask_graphics_12,x:381.7,y:50.4}).wait(61).to({graphics:null,x:0,y:0}).wait(24).to({graphics:mask_graphics_97,x:381.7,y:50.4}).wait(8));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_graphics_5,x:306.1,y:100.3}).wait(1).to({graphics:mask_graphics_6,x:326.2,y:87}).wait(1).to({graphics:mask_graphics_7,x:343.2,y:75.9}).wait(1).to({graphics:mask_graphics_8,x:357,y:66.7}).wait(1).to({graphics:mask_graphics_9,x:367.8,y:59.6}).wait(1).to({graphics:mask_graphics_10,x:375.5,y:54.5}).wait(1).to({graphics:mask_graphics_11,x:380.2,y:51.4}).wait(1).to({graphics:mask_graphics_12,x:381.7,y:50.4}).wait(25).to({graphics:null,x:0,y:0}).wait(60).to({graphics:mask_graphics_97,x:381.7,y:50.4}).wait(8));
 
 	// 元件 28
 	this.instance = new lib.元件28_1("synched",0);
@@ -3491,7 +3497,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({_off:true},68).wait(24).to({_off:false},0).wait(8));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({_off:true},32).wait(60).to({_off:false},0).wait(8));
 
 	// 图层 7 (mask)
 	var mask_1 = new cjs.Shape();
@@ -3506,7 +3512,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	var mask_1_graphics_12 = new cjs.Graphics().p("A3XCkIhIlQMAw/gAzIAAG/g");
 	var mask_1_graphics_97 = new cjs.Graphics().p("A3XCkIhIlQMAw/gAzIAAG/g");
 
-	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_1_graphics_5,x:302.8,y:94.5}).wait(1).to({graphics:mask_1_graphics_6,x:265.3,y:94.3}).wait(1).to({graphics:mask_1_graphics_7,x:233.6,y:94.2}).wait(1).to({graphics:mask_1_graphics_8,x:207.7,y:94.1}).wait(1).to({graphics:mask_1_graphics_9,x:187.5,y:94.1}).wait(1).to({graphics:mask_1_graphics_10,x:173.1,y:94}).wait(1).to({graphics:mask_1_graphics_11,x:164.5,y:94}).wait(1).to({graphics:mask_1_graphics_12,x:161.6,y:94}).wait(61).to({graphics:null,x:0,y:0}).wait(24).to({graphics:mask_1_graphics_97,x:161.6,y:94}).wait(8));
+	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_1_graphics_5,x:302.8,y:94.5}).wait(1).to({graphics:mask_1_graphics_6,x:265.3,y:94.3}).wait(1).to({graphics:mask_1_graphics_7,x:233.6,y:94.2}).wait(1).to({graphics:mask_1_graphics_8,x:207.7,y:94.1}).wait(1).to({graphics:mask_1_graphics_9,x:187.5,y:94.1}).wait(1).to({graphics:mask_1_graphics_10,x:173.1,y:94}).wait(1).to({graphics:mask_1_graphics_11,x:164.5,y:94}).wait(1).to({graphics:mask_1_graphics_12,x:161.6,y:94}).wait(25).to({graphics:null,x:0,y:0}).wait(60).to({graphics:mask_1_graphics_97,x:161.6,y:94}).wait(8));
 
 	// 元件 27
 	this.instance_1 = new lib.元件27_1("synched",0);
@@ -3520,7 +3526,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_1;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(5).to({_off:false},0).to({_off:true},68).wait(24).to({_off:false},0).wait(8));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(5).to({_off:false},0).to({_off:true},32).wait(60).to({_off:false},0).wait(8));
 
 	// 元件 13
 	this.instance_2 = new lib.元件13_1("synched",0);
@@ -3528,7 +3534,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_2.setTransform(314,92.6,14.045,14.045,0,0,0,3.6,3.6);
 	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:3.7,regY:3.7,scaleX:1.11,scaleY:1.11,x:315.4,y:94,alpha:1},7,cjs.Ease.get(1)).to({_off:true},66).wait(24).to({_off:false},0).wait(8));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:3.7,regY:3.7,scaleX:1.11,scaleY:1.11,x:315.4,y:94,alpha:1},7,cjs.Ease.get(1)).to({_off:true},30).wait(60).to({_off:false},0).wait(8));
 
 	// 元件 13
 	this.instance_3 = new lib.元件13_1("synched",0);
@@ -3537,7 +3543,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(9).to({_off:false},0).to({regX:3.7,scaleX:1.11,scaleY:1.11,x:4.1,alpha:1},7,cjs.Ease.get(1)).to({_off:true},57).wait(24).to({_off:false},0).wait(8));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(9).to({_off:false},0).to({regX:3.7,scaleX:1.11,scaleY:1.11,x:4.1,alpha:1},7,cjs.Ease.get(1)).to({_off:true},21).wait(60).to({_off:false},0).wait(8));
 
 	// 图层 8 (mask)
 	var mask_2 = new cjs.Shape();
@@ -3545,7 +3551,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	var mask_2_graphics_11 = new cjs.Graphics().p("A3bGMIAAsXMAu3AAAIAAMXg");
 	var mask_2_graphics_97 = new cjs.Graphics().p("A3bGMIAAsXMAu3AAAIAAMXg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:null,x:0,y:0}).wait(11).to({graphics:mask_2_graphics_11,x:163.7,y:51.3}).wait(62).to({graphics:null,x:0,y:0}).wait(24).to({graphics:mask_2_graphics_97,x:163.7,y:51.3}).wait(8));
+	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:null,x:0,y:0}).wait(11).to({graphics:mask_2_graphics_11,x:163.7,y:51.3}).wait(26).to({graphics:null,x:0,y:0}).wait(60).to({graphics:mask_2_graphics_97,x:163.7,y:51.3}).wait(8));
 
 	// 元件 4
 	this.instance_4 = new lib.元件4_1("synched",0);
@@ -3559,7 +3565,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_2;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(11).to({_off:false},0).to({y:52.4},8,cjs.Ease.get(1)).to({y:50.8},3,cjs.Ease.get(1)).to({y:52.4},3,cjs.Ease.get(1)).to({_off:true},48).wait(24).to({_off:false},0).wait(8));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(11).to({_off:false},0).to({y:52.4},8,cjs.Ease.get(1)).to({y:50.8},3,cjs.Ease.get(1)).to({y:52.4},3,cjs.Ease.get(1)).to({_off:true},12).wait(60).to({_off:false},0).wait(8));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
@@ -3581,7 +3587,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	var mask_graphics_12 = new cjs.Graphics().p("AuQFvIWFyHIGcCkI22WNg");
 	var mask_graphics_81 = new cjs.Graphics().p("AuQFvIWFyHIGcCkI22WNg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_graphics_5,x:306.1,y:100.3}).wait(1).to({graphics:mask_graphics_6,x:326.2,y:87}).wait(1).to({graphics:mask_graphics_7,x:343.2,y:75.9}).wait(1).to({graphics:mask_graphics_8,x:357,y:66.7}).wait(1).to({graphics:mask_graphics_9,x:367.8,y:59.6}).wait(1).to({graphics:mask_graphics_10,x:375.5,y:54.5}).wait(1).to({graphics:mask_graphics_11,x:380.2,y:51.4}).wait(1).to({graphics:mask_graphics_12,x:381.7,y:50.4}).wait(58).to({graphics:null,x:0,y:0}).wait(11).to({graphics:mask_graphics_81,x:381.7,y:50.4}).wait(9).to({graphics:null,x:0,y:0}).wait(15));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_graphics_5,x:306.1,y:100.3}).wait(1).to({graphics:mask_graphics_6,x:326.2,y:87}).wait(1).to({graphics:mask_graphics_7,x:343.2,y:75.9}).wait(1).to({graphics:mask_graphics_8,x:357,y:66.7}).wait(1).to({graphics:mask_graphics_9,x:367.8,y:59.6}).wait(1).to({graphics:mask_graphics_10,x:375.5,y:54.5}).wait(1).to({graphics:mask_graphics_11,x:380.2,y:51.4}).wait(1).to({graphics:mask_graphics_12,x:381.7,y:50.4}).wait(29).to({graphics:null,x:0,y:0}).wait(40).to({graphics:mask_graphics_81,x:381.7,y:50.4}).wait(9).to({graphics:null,x:0,y:0}).wait(15));
 
 	// 元件 28
 	this.instance = new lib.元件28_2("synched",0);
@@ -3595,7 +3601,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({_off:true},65).wait(11).to({_off:false},0).to({_off:true},9).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({_off:true},36).wait(40).to({_off:false},0).to({_off:true},9).wait(15));
 
 	// 图层 7 (mask)
 	var mask_1 = new cjs.Shape();
@@ -3610,7 +3616,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	var mask_1_graphics_12 = new cjs.Graphics().p("A3XCkIhIlQMAw/gAzIAAG/g");
 	var mask_1_graphics_81 = new cjs.Graphics().p("A3XCkIhIlQMAw/gAzIAAG/g");
 
-	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_1_graphics_5,x:302.8,y:94.5}).wait(1).to({graphics:mask_1_graphics_6,x:265.3,y:94.3}).wait(1).to({graphics:mask_1_graphics_7,x:233.6,y:94.2}).wait(1).to({graphics:mask_1_graphics_8,x:207.7,y:94.1}).wait(1).to({graphics:mask_1_graphics_9,x:187.5,y:94.1}).wait(1).to({graphics:mask_1_graphics_10,x:173.1,y:94}).wait(1).to({graphics:mask_1_graphics_11,x:164.5,y:94}).wait(1).to({graphics:mask_1_graphics_12,x:161.6,y:94}).wait(58).to({graphics:null,x:0,y:0}).wait(11).to({graphics:mask_1_graphics_81,x:161.6,y:94}).wait(9).to({graphics:null,x:0,y:0}).wait(15));
+	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:null,x:0,y:0}).wait(5).to({graphics:mask_1_graphics_5,x:302.8,y:94.5}).wait(1).to({graphics:mask_1_graphics_6,x:265.3,y:94.3}).wait(1).to({graphics:mask_1_graphics_7,x:233.6,y:94.2}).wait(1).to({graphics:mask_1_graphics_8,x:207.7,y:94.1}).wait(1).to({graphics:mask_1_graphics_9,x:187.5,y:94.1}).wait(1).to({graphics:mask_1_graphics_10,x:173.1,y:94}).wait(1).to({graphics:mask_1_graphics_11,x:164.5,y:94}).wait(1).to({graphics:mask_1_graphics_12,x:161.6,y:94}).wait(29).to({graphics:null,x:0,y:0}).wait(40).to({graphics:mask_1_graphics_81,x:161.6,y:94}).wait(9).to({graphics:null,x:0,y:0}).wait(15));
 
 	// 元件 27
 	this.instance_1 = new lib.元件27_2("synched",0);
@@ -3624,7 +3630,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_1;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(5).to({_off:false},0).to({_off:true},65).wait(11).to({_off:false},0).to({_off:true},9).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(5).to({_off:false},0).to({_off:true},36).wait(40).to({_off:false},0).to({_off:true},9).wait(15));
 
 	// 元件 13
 	this.instance_2 = new lib.元件13_2("synched",0);
@@ -3632,7 +3638,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_2.setTransform(314,92.6,14.045,14.045,0,0,0,3.6,3.6);
 	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:3.7,regY:3.7,scaleX:1.11,scaleY:1.11,x:315.4,y:94,alpha:1},7,cjs.Ease.get(1)).to({_off:true},63).wait(11).to({_off:false},0).to({_off:true},9).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regX:3.7,regY:3.7,scaleX:1.11,scaleY:1.11,x:315.4,y:94,alpha:1},7,cjs.Ease.get(1)).to({_off:true},34).wait(40).to({_off:false},0).to({_off:true},9).wait(15));
 
 	// 元件 13
 	this.instance_3 = new lib.元件13_2("synched",0);
@@ -3641,7 +3647,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(9).to({_off:false},0).to({regX:3.7,scaleX:1.11,scaleY:1.11,x:4.1,alpha:1},7,cjs.Ease.get(1)).to({_off:true},54).wait(11).to({_off:false},0).to({_off:true},9).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(9).to({_off:false},0).to({regX:3.7,scaleX:1.11,scaleY:1.11,x:4.1,alpha:1},7,cjs.Ease.get(1)).to({_off:true},25).wait(40).to({_off:false},0).to({_off:true},9).wait(15));
 
 	// 图层 8 (mask)
 	var mask_2 = new cjs.Shape();
@@ -3649,7 +3655,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	var mask_2_graphics_11 = new cjs.Graphics().p("A3bGMIAAsXMAu3AAAIAAMXg");
 	var mask_2_graphics_81 = new cjs.Graphics().p("A3bGMIAAsXMAu3AAAIAAMXg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:null,x:0,y:0}).wait(11).to({graphics:mask_2_graphics_11,x:163.7,y:51.3}).wait(59).to({graphics:null,x:0,y:0}).wait(11).to({graphics:mask_2_graphics_81,x:163.7,y:51.3}).wait(9).to({graphics:null,x:0,y:0}).wait(15));
+	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:null,x:0,y:0}).wait(11).to({graphics:mask_2_graphics_11,x:163.7,y:51.3}).wait(30).to({graphics:null,x:0,y:0}).wait(40).to({graphics:mask_2_graphics_81,x:163.7,y:51.3}).wait(9).to({graphics:null,x:0,y:0}).wait(15));
 
 	// 元件 4
 	this.instance_4 = new lib.元件4_2("synched",0);
@@ -3663,7 +3669,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_2;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(11).to({_off:false},0).to({y:52.4},8,cjs.Ease.get(1)).to({y:50.8},3,cjs.Ease.get(1)).to({y:52.4},3,cjs.Ease.get(1)).to({_off:true},45).wait(11).to({_off:false},0).to({_off:true},9).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(11).to({_off:false},0).to({y:52.4},8,cjs.Ease.get(1)).to({y:50.8},3,cjs.Ease.get(1)).to({y:52.4},3,cjs.Ease.get(1)).to({_off:true},16).wait(40).to({_off:false},0).to({_off:true},9).wait(15));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
@@ -3678,7 +3684,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance.setTransform(1537.7,181.4,0.9,0.9,0,0,0,198.3,184.5);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(4).to({_off:false},0).to({_off:true},97).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(4).to({_off:false},0).to({_off:true},97).wait(49));
 
 	// 元件 14
 	this.instance_1 = new lib.元件14("synched",0);
@@ -3687,7 +3693,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2).to({_off:false},0).to({y:608,alpha:1},5,cjs.Ease.get(1)).to({y:595.2},11,cjs.Ease.get(1)).to({_off:true},83).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2).to({_off:false},0).to({y:608,alpha:1},5,cjs.Ease.get(1)).to({y:595.2},11,cjs.Ease.get(1)).to({_off:true},83).wait(49));
 
 	// 元件 112
 	this.instance_2 = new lib.元件112("synched",14,false);
@@ -3695,7 +3701,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_2.setTransform(820.4,159.1,1,1,0,0,0,89.2,102.5);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(2).to({_off:false},0).to({y:223.1,startPosition:19},5,cjs.Ease.get(1)).to({y:210.3,startPosition:30},11,cjs.Ease.get(1)).to({_off:true},83).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(2).to({_off:false},0).to({y:223.1,startPosition:19},7,cjs.Ease.get(1)).to({y:210.3,startPosition:30},13,cjs.Ease.get(1)).to({_off:true},79).wait(49));
 
 	// <Clip Group>
 	this.instance_3 = new lib.ClipGroup();
@@ -3703,7 +3709,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_3.setTransform(-62.5,47,0.28,0.28,0,0,0,1635.3,774.6);
 	this.instance_3.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({y:111,alpha:1},5,cjs.Ease.get(1)).to({y:98.2},11,cjs.Ease.get(1)).to({_off:true},85).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({y:111,alpha:1},7,cjs.Ease.get(1)).to({y:98.2},13,cjs.Ease.get(1)).to({_off:true},81).wait(49));
 
 	// 元件 109
 	this.instance_4 = new lib.元件109();
@@ -3711,7 +3717,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_4.setTransform(1567.9,1196.6,1,1,0,0,0,141.3,123);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(2).to({_off:false},0).to({y:1145.4},5,cjs.Ease.get(1)).to({y:1155},11,cjs.Ease.get(1)).to({_off:true},83).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(2).to({_off:false},0).to({y:1145.4},7,cjs.Ease.get(1)).to({y:1155},13,cjs.Ease.get(1)).to({_off:true},79).wait(49));
 
 	// 图层 2
 	this.instance_5 = new lib.Clipdggfgdfg();
@@ -3719,7 +3725,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_5.setTransform(1518.5,1212.9,0.28,0.28,0,0,0,1635.3,774.6);
 	this.instance_5.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({y:1161.7,alpha:1},5,cjs.Ease.get(1)).to({y:1171.3},11,cjs.Ease.get(1)).to({_off:true},85).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({y:1161.7,alpha:1},7,cjs.Ease.get(1)).to({y:1171.3},13,cjs.Ease.get(1)).to({_off:true},81).wait(49));
 
 	// 元件 110
 	this.instance_6 = new lib.元件110();
@@ -3727,7 +3733,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_6.setTransform(787.1,997.9,1,1,0,0,0,135.6,132.5);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(4).to({_off:false},0).to({y:946.7},5,cjs.Ease.get(1)).to({y:956.3},11,cjs.Ease.get(1)).to({_off:true},81).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(4).to({_off:false},0).to({y:946.7},5,cjs.Ease.get(1)).to({y:956.3},11,cjs.Ease.get(1)).to({_off:true},81).wait(49));
 
 	// <Clip Group>_1
 	this.instance_7 = new lib.ClipGroup_1_1();
@@ -3736,7 +3742,7 @@ p.nominalBounds = new cjs.Rectangle(263.5,42,102.6,102.6);
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(2).to({_off:false},0).to({y:1252,alpha:1},5,cjs.Ease.get(1)).to({y:1261.6},11,cjs.Ease.get(1)).to({_off:true},83).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(2).to({_off:false},0).to({y:1252,alpha:1},5,cjs.Ease.get(1)).to({y:1261.6},11,cjs.Ease.get(1)).to({_off:true},83).wait(49));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(766.6,13.8,755.4,1296.1);
@@ -3896,7 +3902,7 @@ p.nominalBounds = new cjs.Rectangle(8,59.9,133.3,180.9);
 	this.shape_4.graphics.f("#183851").s().p("AQhDTQBegpgGg/IAAgmIATAAIAAAmQAHBOhsArgAUoDiIAAibIATAAIAACbgAHvDSQB7gigFg4IAAgLIhAAAIAAiQID/AAIAACQIhRAAIAAA0QgBAlAhgFIAkAAQAkAFACgbIACgTIAAgYIATAEIAAATIgCAVQgCArg3gCIgkAAQg1ACACg1IAAg1IhHAAIAAALQAABJiHAhgAI6BcIDWAAIAAgsIjWAAgAI6AcIDWAAIAAgtIjWAAgACSDhIAAjzIhYAAQAABagMAwQgKAugoA7IgOgIQAkg3AJgtQALgrAAhhIAAiZQBdgDBPgQIAEAQQhAARhcADIAAB6ICrAAIAAATIhAAAIAADzgAqZDfIg9AAIAAgUIA8AAQAuAEgFglIAAgsIjkAAIAAgRIDkAAIAAgdICQgsIlAAAIAAgTIFoAAIAAASIikA5IAAARIDTAAIAAARIjTAAIAAAtQAEA0g8AAIgEAAgA2/DPQCXg2gEh8IAAgSIiTAAIAAgSIDoAAIAAhkIiIAAQgVAqgcAkIgOgLQA4hPAghZIASADQgTA4gRAXICBAAIAAhlIAUAAIAABlICvAAIAAATIivAAIAABkIDKAAIAAASIihAAIAACKQgDArAxgCIAmAAQA2ACAEgjQAAgaADghIASAAQAAAjgEAcQgEAyhEgCIgqAAQhDACACg8IAAiMIhrAAIgCATQAECFiiA8gAiODXIgvAAIADgTIArAAQAgACgCgkIAAhuIhtAAIAAgTIBtAAIAAg9IAVAAIAAA9IBkAAIAAATIhkAAIAABwQABAzgvAAIgEAAgAjoCkQAgghAhg0IAPAGQgeA1gkAkgAhEBZIAOgKIA6BFIgKANgAGHCLIA7gPIAAjMIg3AAIAAgTIA3AAIAAiAIAUAAIAACAIAxAAIAAAIIDBAAIAKgOIAqg0IiwAAIAtA2IgNAKIgrg1IALgLIg1AAIAAgRICMAAIgTgwIASgFIAVA1ICKAAIAAARIhFAAIANAJQgDAJgHAJQgXAhgNAGIB1AAIAAARIlMAAIAAgGIguAAIAADHIA8gSIAFASIiNAmgATbgJQhMBOiUAuIgGgQQCOgvBFg+IiZAAIAAi5IFXAAIAAC5IiZAAQBFBGCNAmIgFARQiVgnhKhVgATlgcICOAAIAAhBIiOAAgARCgcICPAAIAAhBIiPAAgATlhxICOAAIAAhBIiOAAgARChxICPAAIAAhBIiPAAgAsMgSIAAhaIE9AAIAABagAr4glIEVAAIAAg0IkVAAgAjhgiIAAgRICJAAQAEgIASgdQARgfAJgNIAOAHQgJAWgeA0IBOAAIAAARgAi3h6IAOgKIAoBCIgOAKgAjWiNIAAgUIByAAIgbg8IAOgGIAeBCIBVAAIAAAUgAtJiTIAAgTIDiAAIggg4IARgFIAhA9IDEAAIAAATg");
 	this.shape_4.setTransform(194.8,43.2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape}]},7).to({state:[{t:this.shape_1}]},2).to({state:[{t:this.shape_2}]},2).to({state:[{t:this.shape_3}]},1).to({state:[{t:this.shape_4}]},1).wait(77));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape}]},7).to({state:[{t:this.shape_1}]},2).to({state:[{t:this.shape_2}]},2).to({state:[{t:this.shape_3}]},2).to({state:[{t:this.shape_4}]},2).wait(78));
 
 	// 图层 3
 	this.instance = new lib.元件52("synched",0);
@@ -3904,14 +3910,14 @@ p.nominalBounds = new cjs.Rectangle(8,59.9,133.3,180.9);
 	this.instance.setTransform(39.6,45.3,1,1,0,0,0,0,18.9);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).wait(2).to({x:109.2},0).wait(2).to({x:164.8},0).wait(2).to({x:228.4},0).wait(1).to({x:292.8},0).wait(1).to({x:345.6},0).to({_off:true},1).wait(76));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).wait(2).to({x:109.2},0).wait(2).to({x:164.8},0).wait(2).to({x:228.4},0).wait(2).to({x:292.8},0).wait(2).to({x:345.6},0).to({_off:true},2).wait(76));
 
 	// 图层 1
 	this.instance_1 = new lib.元件44("synched",0);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(203.8,33,1,1,0,0,0,380.9,208.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(90));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(93));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(9.2,9.9,368.2,74.4);
@@ -3941,7 +3947,7 @@ p.nominalBounds = new cjs.Rectangle(9.2,9.9,368.2,74.4);
 	this.shape_4.graphics.f("#183851").s().p("AH6DWQCNhSANhhIh/AAIAAgTIB/AAQABgRAAhrIhhAAIAAgUIBiAAQABgrAAg2IASAAIAABhIB1AAIAACQIA2AAIAAATIijAAQAkB0B7A7IgGAPQiAg9gnh0QgRBniRBNgAKnAQIBkAAIAAh8IhiAAQAABngCAVgAHYDkIAAnHIATAAIAAHHgAhWDTQC7hOBWiIIAPAGQgiA8g5AzIBuBcIgKANIhwheQhBA1hxAwgArzDQQATgVAAguIAAgFIgJAAIAAg9IAdAAIAABEQAAA+gnAVgAwtDhIAAglIjXAAIAAAlIgUAAIAAi7IB1AAIAAhZIibAAIAAgTICbAAIAAhgQgqAChYAAIAAgTQCYgCCAgMIAAATQhBAIhBACIAABiICbAAIAAATIibAAIAABZIB1AAIAAC7gA0ECpIDXAAIAAhwIjXAAgA2mDbIBAizIARAGIg/CxgASwDZQgjAAgYgCIAAgTQAYACAiAAQA1ADgFgnIAAiVIjGAAIAdi7QDGgFCZgQIACASQiYAQi4AHIgaCVICyAAIAAh3IARAAIAAB3IC5AAIAAASIi5AAIAACWQAEA2g9AAIgHAAgAiuDJQAKgJgCAAIAAjrIhAAAIAAgTIBTAAIAADvIA2gxIAKAOIg/A1IgCABQgGAHgJAIgAP2C1QBLg/AwhAIAOAKQgxBEhOA+gAU5BAIAKgKQASANAsArIBBBCIgOAKQhDhBg4g5gAhSBsQBlgzBBhAIiEAEIgGACQgHABgIAAIgDgRIAOgFIgBABQA3g5AkgxIh5AAIAAgUICuAAIgnhKIAPgGIAnBHIgOAJICRAAIAAAUIizAAQgiA1g3A0ICEgEQAcghAcgsIAOAHQhKCNimBOgAGHAQQARg8ARhQIAQADQgJBAgXBOgA3BhQIAKgOIBkBIIgKAOgAHyh/IAMgKIA2BDIgOAJgAjFjKIALgKIBMBUIgOAKgA2ejFIAKgOIBWBEIgKANg");
 	this.shape_4.setTransform(194.6,43.2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape}]},7).to({state:[{t:this.shape_1}]},2).to({state:[{t:this.shape_2}]},2).to({state:[{t:this.shape_3}]},1).to({state:[{t:this.shape_4}]},1).wait(77));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape}]},7).to({state:[{t:this.shape_1}]},2).to({state:[{t:this.shape_2}]},2).to({state:[{t:this.shape_3}]},2).to({state:[{t:this.shape_4}]},2).wait(78));
 
 	// 图层 3
 	this.instance = new lib.元件52_1("synched",0);
@@ -3949,14 +3955,14 @@ p.nominalBounds = new cjs.Rectangle(9.2,9.9,368.2,74.4);
 	this.instance.setTransform(39.6,45.3,1,1,0,0,0,0,18.9);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).wait(2).to({x:109.2},0).wait(2).to({x:164.8},0).wait(2).to({x:228.4},0).wait(1).to({x:292.8},0).wait(1).to({x:345.6},0).to({_off:true},1).wait(76));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).wait(2).to({x:109.2},0).wait(2).to({x:164.8},0).wait(2).to({x:228.4},0).wait(2).to({x:292.8},0).wait(2).to({x:345.6},0).to({_off:true},2).wait(76));
 
 	// 图层 1
 	this.instance_1 = new lib.元件44_1("synched",0);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(203.8,33,1,1,0,0,0,380.9,208.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(90));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(93));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(9.2,9.9,368.2,74.4);
@@ -3986,7 +3992,7 @@ p.nominalBounds = new cjs.Rectangle(9.2,9.9,368.2,74.4);
 	this.shape_4.graphics.f("#183851").s().p("AJ2DjIAAkiIATAAIAAEigArhDRQATgVAAguIAAgFIgJAAIAAg9IAdAAIAABEQAAA+gnAVgA0dDUQA1grASghQASgkABhIIAAg4IhFAAIAAgSIEjAAIAAASIhoAAIAAC/QAAAcAfAAIALAAQAlACAFgdQACgIACgUIACggIATAAQAAAKgCAMQgCAggEAKQgEAsg3gCIgLAAQgzAAAAgvIAAi/IhOAAIAAA8QAGB6hqBIgAQtDgIAAmcIGCAAIAAFXQAEBFhNgFIgcAAIgkgBIAAgTQAQAAAUABIAcAAQA5AEgDgyIAAlDIlcAAIAAGJgAjBC/IAAgTIDLAAIAAhgIiiAAIAAgUICiAAIAAhZIiPAAIAAgTIExAAIAAATIiOAAIAABZICjAAIAAAUIijAAIAABgIDJAAIAAATgA2vCcIBLgXIAAiLIg/AAIAAgTIA/AAIAAiDIhDAAIAAgRICeAAIAAARIhHAAIAACDIA/AAIAAATIg/AAIAACHIBNgWIAEARIiqAxgASLB/IAAiSIDGAAIAACSgASfBtICeAAIAAhtIieAAgAGXBfQCuhxBhiRIj2AAIAAgUIGpAAIAAAUIigAAQhhCei4BygAKvgVIAHgNQB2BKA8AtIgKAOQhKg1hlhDgAjUgjQCfhVBOhqIAOAKIgCAFQgDAGgEADQBHBYCWBLIgKAOQiRhGhNhfQhOBfiSBKgARmhSIAAgUIEPAAIAAAUgAzvihIAAgTIDvAAIAAATg");
 	this.shape_4.setTransform(192.8,43.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape}]},7).to({state:[{t:this.shape_1}]},2).to({state:[{t:this.shape_2}]},2).to({state:[{t:this.shape_3}]},1).to({state:[{t:this.shape_4}]},1).wait(77));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape}]},7).to({state:[{t:this.shape_1}]},2).to({state:[{t:this.shape_2}]},2).to({state:[{t:this.shape_3}]},2).to({state:[{t:this.shape_4}]},2).wait(78));
 
 	// 图层 3
 	this.instance = new lib.元件52_2("synched",0);
@@ -3994,14 +4000,14 @@ p.nominalBounds = new cjs.Rectangle(9.2,9.9,368.2,74.4);
 	this.instance.setTransform(39.6,45.3,1,1,0,0,0,0,18.9);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).wait(2).to({x:109.2},0).wait(2).to({x:164.8},0).wait(2).to({x:228.4},0).wait(1).to({x:292.8},0).wait(1).to({x:345.6},0).to({_off:true},1).wait(76));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).wait(2).to({x:109.2},0).wait(2).to({x:164.8},0).wait(2).to({x:228.4},0).wait(2).to({x:292.8},0).wait(2).to({x:345.6},0).to({_off:true},2).wait(76));
 
 	// 图层 1
 	this.instance_1 = new lib.元件44_2("synched",0);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(203.8,33,1,1,0,0,0,380.9,208.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(90));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(93));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(9.2,9.9,368.2,74.4);
@@ -4161,7 +4167,7 @@ p.nominalBounds = new cjs.Rectangle(73.7,-21.3,85.2,147.1);
 	this.instance.parent = this;
 	this.instance.setTransform(465,-129.9,1.03,1.03,0,0,0,234.5,53.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:380.5},4,cjs.Ease.get(1)).to({x:388.3},11,cjs.Ease.get(1)).to({_off:true},88).wait(53));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:380.5},5,cjs.Ease.get(1)).to({x:388.3},13,cjs.Ease.get(1)).to({_off:true},85).wait(61));
 
 	// 图层 2
 	this.instance_1 = new lib.元件2("synched",0);
@@ -4169,7 +4175,7 @@ p.nominalBounds = new cjs.Rectangle(73.7,-21.3,85.2,147.1);
 	this.instance_1.setTransform(465.5,-20.9,1.03,1.03,0,0,0,236.6,35.9);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2).to({_off:false},0).to({x:381},4,cjs.Ease.get(1)).to({x:388.8},11,cjs.Ease.get(1)).to({_off:true},86).wait(53));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2).to({_off:false},0).to({x:381},5,cjs.Ease.get(1)).to({x:388.8},13,cjs.Ease.get(1)).to({_off:true},83).wait(61));
 
 	// 图层 6
 	this.instance_2 = new lib.元件128("synched",0);
@@ -4177,7 +4183,7 @@ p.nominalBounds = new cjs.Rectangle(73.7,-21.3,85.2,147.1);
 	this.instance_2.setTransform(463.1,71.1,1,1,0,0,0,249.3,40);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(4).to({_off:false},0).to({x:378.6},4,cjs.Ease.get(1)).to({x:386.4},11,cjs.Ease.get(1)).to({_off:true},84).wait(53));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(5).to({_off:false},0).to({x:378.6},5,cjs.Ease.get(1)).to({x:386.4},13,cjs.Ease.get(1)).to({_off:true},80).wait(61));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(226.7,-189.9,469.9,103.2);
@@ -4192,7 +4198,7 @@ p.nominalBounds = new cjs.Rectangle(226.7,-189.9,469.9,103.2);
 	this.instance.setTransform(465.1,-129.5,1.036,1.036,0,0,0,234.5,53.6);
 	this.instance.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:379.9,alpha:1},5,cjs.Ease.get(1)).to({x:387},12,cjs.Ease.get(1)).to({_off:true},101).wait(35));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:379.9,alpha:1},6,cjs.Ease.get(1)).to({x:387},14,cjs.Ease.get(1)).to({_off:true},98).wait(41));
 
 	// 图层 2
 	this.instance_1 = new lib.元件2_1("synched",0);
@@ -4201,7 +4207,7 @@ p.nominalBounds = new cjs.Rectangle(226.7,-189.9,469.9,103.2);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2).to({_off:false},0).to({x:383.7,alpha:1},5,cjs.Ease.get(1)).to({x:390.8},12,cjs.Ease.get(1)).to({_off:true},99).wait(35));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2).to({_off:false},0).to({x:383.7,alpha:1},6,cjs.Ease.get(1)).to({x:390.8},14,cjs.Ease.get(1)).to({_off:true},96).wait(41));
 
 	// 图层 6
 	this.instance_2 = new lib.元件128("synched",0);
@@ -4210,7 +4216,7 @@ p.nominalBounds = new cjs.Rectangle(226.7,-189.9,469.9,103.2);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(4).to({_off:false},0).to({x:376.3,alpha:1},5,cjs.Ease.get(1)).to({x:383.4},12,cjs.Ease.get(1)).to({_off:true},97).wait(35));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(5).to({_off:false},0).to({x:376.3,alpha:1},6,cjs.Ease.get(1)).to({x:383.4},14,cjs.Ease.get(1)).to({_off:true},93).wait(41));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(214.8,-157.4,493,106.4);
@@ -4224,7 +4230,7 @@ p.nominalBounds = new cjs.Rectangle(214.8,-157.4,493,106.4);
 	this.instance.parent = this;
 	this.instance.setTransform(476.8,-130.1,1,1,0,0,0,234.5,53.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:376.9},5,cjs.Ease.get(1)).to({x:386.9},10,cjs.Ease.get(1)).to({_off:true},115).wait(21));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:376.9},6,cjs.Ease.get(1)).to({x:386.9},12,cjs.Ease.get(1)).to({_off:true},112).wait(29));
 
 	// 图层 2
 	this.instance_1 = new lib.元件2_2("synched",0);
@@ -4232,7 +4238,7 @@ p.nominalBounds = new cjs.Rectangle(214.8,-157.4,493,106.4);
 	this.instance_1.setTransform(475.9,-24.2,1,1,0,0,0,236.6,35.9);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(3).to({_off:false},0).to({x:378.6},5,cjs.Ease.get(1)).to({x:388.6},10,cjs.Ease.get(1)).to({_off:true},112).wait(21));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(3).to({_off:false},0).to({x:378.6},6,cjs.Ease.get(1)).to({x:388.6},12,cjs.Ease.get(1)).to({_off:true},109).wait(29));
 
 	// 图层 6
 	this.instance_2 = new lib.元件128("synched",0);
@@ -4240,7 +4246,7 @@ p.nominalBounds = new cjs.Rectangle(214.8,-157.4,493,106.4);
 	this.instance_2.setTransform(461.3,73,1,1,0,0,0,249.3,40);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(5).to({_off:false},0).to({x:370.3},5,cjs.Ease.get(1)).to({x:383.3},10,cjs.Ease.get(1)).to({_off:true},110).wait(21));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(6).to({_off:false},0).to({x:370.3},6,cjs.Ease.get(1)).to({x:383.3},12,cjs.Ease.get(1)).to({_off:true},106).wait(29));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(242.3,-183.7,469.1,107.4);
@@ -4356,7 +4362,7 @@ p.nominalBounds = new cjs.Rectangle(0,-90.4,381.9,300.6);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(21).to({_off:false},0).to({y:857.7,alpha:1},8,cjs.Ease.get(1)).to({_off:true},33).wait(24).to({_off:false},0).to({_off:true},8).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(27).to({_off:false},0).to({y:857.7,alpha:1},8,cjs.Ease.get(1)).to({_off:true},16).wait(35).to({_off:false},0).to({_off:true},8).wait(16));
 
 	// 元件 63
 	this.instance_1 = new lib.元件63("synched",0);
@@ -4365,7 +4371,7 @@ p.nominalBounds = new cjs.Rectangle(0,-90.4,381.9,300.6);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(8).to({_off:false},0).to({alpha:1},8).to({_off:true},46).wait(24).to({_off:false},0).to({_off:true},8).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(14).to({_off:false},0).to({alpha:1},8).to({_off:true},29).wait(35).to({_off:false},0).to({_off:true},8).wait(16));
 
 	// 元件 41
 	this.instance_2 = new lib.元件41("synched",0);
@@ -4374,33 +4380,33 @@ p.nominalBounds = new cjs.Rectangle(0,-90.4,381.9,300.6);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(21).to({_off:false},0).to({regX:124.2,regY:102,scaleX:1,scaleY:1,rotation:0,guide:{path:[286.8,872.6,306.5,856.1,328.6,838.3,438.8,749.8,604.7,654.6]},alpha:1},13,cjs.Ease.get(1)).to({_off:true},28).wait(24).to({_off:false},0).to({_off:true},8).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(27).to({_off:false},0).to({regX:124.2,regY:102,scaleX:1,scaleY:1,rotation:0,guide:{path:[286.8,872.6,306.5,856.1,328.6,838.3,438.8,749.8,604.7,654.6]},alpha:1},13,cjs.Ease.get(1)).to({_off:true},11).wait(35).to({_off:false},0).to({_off:true},8).wait(16));
 
 	// 图层 18 (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
-	var mask_graphics_14 = new cjs.Graphics().p("AgJdxMAAAg7hIATAAMAAAA7hg");
-	var mask_graphics_15 = new cjs.Graphics().p("AjAdyMAAAg7jIGBAAMAAAA7jg");
-	var mask_graphics_16 = new cjs.Graphics().p("Al3dyMAAAg7jILvAAMAAAA7jg");
-	var mask_graphics_17 = new cjs.Graphics().p("AoudxMAAAg7hIRdAAMAAAA7hg");
-	var mask_graphics_18 = new cjs.Graphics().p("ArldxMAAAg7hIXLAAMAAAA7hg");
-	var mask_graphics_19 = new cjs.Graphics().p("AucdyMAAAg7jIc5AAMAAAA7jg");
-	var mask_graphics_20 = new cjs.Graphics().p("AxTdyMAAAg7jMAinAAAMAAAA7jg");
-	var mask_graphics_21 = new cjs.Graphics().p("A0KdxMAAAg7hMAoVAAAMAAAA7hg");
-	var mask_graphics_22 = new cjs.Graphics().p("A3BdxMAAAg7hMAuCAAAMAAAA7hg");
-	var mask_graphics_23 = new cjs.Graphics().p("A54dyMAAAg7jMAzwAAAMAAAA7jg");
-	var mask_graphics_24 = new cjs.Graphics().p("A8vdyMAAAg7jMA5fAAAMAAAA7jg");
-	var mask_graphics_25 = new cjs.Graphics().p("A/mdyMAAAg7jMA/MAAAMAAAA7jg");
-	var mask_graphics_26 = new cjs.Graphics().p("EgicAdxMAAAg7hMBE5AAAMAAAA7hg");
-	var mask_graphics_27 = new cjs.Graphics().p("EglTAdyMAAAg7jMBKnAAAMAAAA7jg");
-	var mask_graphics_28 = new cjs.Graphics().p("EgoKAdyMAAAg7jMBQVAAAMAAAA7jg");
-	var mask_graphics_29 = new cjs.Graphics().p("EgrBAdyMAAAg7jMBWDAAAMAAAA7jg");
-	var mask_graphics_30 = new cjs.Graphics().p("Egt4AdyMAAAg7iMBbxAAAMAAAA7ig");
-	var mask_graphics_31 = new cjs.Graphics().p("EgwvAdyMAAAg7jMBhfAAAMAAAA7jg");
-	var mask_graphics_32 = new cjs.Graphics().p("EgzmAdyMAAAg7jMBnNAAAMAAAA7jg");
+	var mask_graphics_20 = new cjs.Graphics().p("AgJdxMAAAg7hIATAAMAAAA7hg");
+	var mask_graphics_21 = new cjs.Graphics().p("AjAdyMAAAg7jIGBAAMAAAA7jg");
+	var mask_graphics_22 = new cjs.Graphics().p("Al3dyMAAAg7jILvAAMAAAA7jg");
+	var mask_graphics_23 = new cjs.Graphics().p("AoudxMAAAg7hIRdAAMAAAA7hg");
+	var mask_graphics_24 = new cjs.Graphics().p("ArldxMAAAg7hIXLAAMAAAA7hg");
+	var mask_graphics_25 = new cjs.Graphics().p("AucdyMAAAg7jIc5AAMAAAA7jg");
+	var mask_graphics_26 = new cjs.Graphics().p("AxTdyMAAAg7jMAinAAAMAAAA7jg");
+	var mask_graphics_27 = new cjs.Graphics().p("A0KdxMAAAg7hMAoVAAAMAAAA7hg");
+	var mask_graphics_28 = new cjs.Graphics().p("A3BdxMAAAg7hMAuCAAAMAAAA7hg");
+	var mask_graphics_29 = new cjs.Graphics().p("A54dyMAAAg7jMAzwAAAMAAAA7jg");
+	var mask_graphics_30 = new cjs.Graphics().p("A8vdyMAAAg7jMA5fAAAMAAAA7jg");
+	var mask_graphics_31 = new cjs.Graphics().p("A/mdyMAAAg7jMA/MAAAMAAAA7jg");
+	var mask_graphics_32 = new cjs.Graphics().p("EgicAdxMAAAg7hMBE5AAAMAAAA7hg");
+	var mask_graphics_33 = new cjs.Graphics().p("EglTAdyMAAAg7jMBKnAAAMAAAA7jg");
+	var mask_graphics_34 = new cjs.Graphics().p("EgoKAdyMAAAg7jMBQVAAAMAAAA7jg");
+	var mask_graphics_35 = new cjs.Graphics().p("EgrBAdyMAAAg7jMBWDAAAMAAAA7jg");
+	var mask_graphics_36 = new cjs.Graphics().p("Egt4AdyMAAAg7iMBbxAAAMAAAA7ig");
+	var mask_graphics_37 = new cjs.Graphics().p("EgwvAdyMAAAg7jMBhfAAAMAAAA7jg");
+	var mask_graphics_38 = new cjs.Graphics().p("EgzmAdyMAAAg7jMBnNAAAMAAAA7jg");
 	var mask_graphics_86 = new cjs.Graphics().p("EgzmAdyMAAAg7jMBnNAAAMAAAA7jg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(14).to({graphics:mask_graphics_14,x:1,y:874.2}).wait(1).to({graphics:mask_graphics_15,x:19.3,y:874.1}).wait(1).to({graphics:mask_graphics_16,x:37.6,y:874}).wait(1).to({graphics:mask_graphics_17,x:55.9,y:873.8}).wait(1).to({graphics:mask_graphics_18,x:74.2,y:873.7}).wait(1).to({graphics:mask_graphics_19,x:92.5,y:873.6}).wait(1).to({graphics:mask_graphics_20,x:110.8,y:873.5}).wait(1).to({graphics:mask_graphics_21,x:129.1,y:873.4}).wait(1).to({graphics:mask_graphics_22,x:147.4,y:873.3}).wait(1).to({graphics:mask_graphics_23,x:165.7,y:873.2}).wait(1).to({graphics:mask_graphics_24,x:184,y:873.1}).wait(1).to({graphics:mask_graphics_25,x:202.3,y:873}).wait(1).to({graphics:mask_graphics_26,x:220.5,y:872.8}).wait(1).to({graphics:mask_graphics_27,x:238.8,y:872.7}).wait(1).to({graphics:mask_graphics_28,x:257.1,y:872.6}).wait(1).to({graphics:mask_graphics_29,x:275.4,y:872.5}).wait(1).to({graphics:mask_graphics_30,x:293.7,y:872.4}).wait(1).to({graphics:mask_graphics_31,x:312,y:872.3}).wait(1).to({graphics:mask_graphics_32,x:330.3,y:872.2}).wait(30).to({graphics:null,x:0,y:0}).wait(24).to({graphics:mask_graphics_86,x:330.3,y:872.2}).wait(8).to({graphics:null,x:0,y:0}).wait(10));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(20).to({graphics:mask_graphics_20,x:1,y:874.2}).wait(1).to({graphics:mask_graphics_21,x:19.3,y:874.1}).wait(1).to({graphics:mask_graphics_22,x:37.6,y:874}).wait(1).to({graphics:mask_graphics_23,x:55.9,y:873.8}).wait(1).to({graphics:mask_graphics_24,x:74.2,y:873.7}).wait(1).to({graphics:mask_graphics_25,x:92.5,y:873.6}).wait(1).to({graphics:mask_graphics_26,x:110.8,y:873.5}).wait(1).to({graphics:mask_graphics_27,x:129.1,y:873.4}).wait(1).to({graphics:mask_graphics_28,x:147.4,y:873.3}).wait(1).to({graphics:mask_graphics_29,x:165.7,y:873.2}).wait(1).to({graphics:mask_graphics_30,x:184,y:873.1}).wait(1).to({graphics:mask_graphics_31,x:202.3,y:873}).wait(1).to({graphics:mask_graphics_32,x:220.5,y:872.8}).wait(1).to({graphics:mask_graphics_33,x:238.8,y:872.7}).wait(1).to({graphics:mask_graphics_34,x:257.1,y:872.6}).wait(1).to({graphics:mask_graphics_35,x:275.4,y:872.5}).wait(1).to({graphics:mask_graphics_36,x:293.7,y:872.4}).wait(1).to({graphics:mask_graphics_37,x:312,y:872.3}).wait(1).to({graphics:mask_graphics_38,x:330.3,y:872.2}).wait(13).to({graphics:null,x:0,y:0}).wait(35).to({graphics:mask_graphics_86,x:330.3,y:872.2}).wait(8).to({graphics:null,x:0,y:0}).wait(16));
 
 	// 元件 64
 	this.instance_3 = new lib.元件64("synched",0);
@@ -4414,7 +4420,7 @@ p.nominalBounds = new cjs.Rectangle(0,-90.4,381.9,300.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(14).to({_off:false},0).to({_off:true},48).wait(24).to({_off:false},0).to({_off:true},8).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(20).to({_off:false},0).to({_off:true},31).wait(35).to({_off:false},0).to({_off:true},8).wait(16));
 
 	// 元件 62
 	this.instance_4 = new lib.元件62("synched",0);
@@ -4423,7 +4429,7 @@ p.nominalBounds = new cjs.Rectangle(0,-90.4,381.9,300.6);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(11).to({_off:false},0).to({y:652.8,alpha:1},8,cjs.Ease.get(1)).to({_off:true},43).wait(24).to({_off:false},0).to({_off:true},8).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(17).to({_off:false},0).to({y:652.8,alpha:1},8,cjs.Ease.get(1)).to({_off:true},26).wait(35).to({_off:false},0).to({_off:true},8).wait(16));
 
 	// 元件 61
 	this.instance_5 = new lib.元件61("synched",0);
@@ -4432,24 +4438,26 @@ p.nominalBounds = new cjs.Rectangle(0,-90.4,381.9,300.6);
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(8).to({_off:false},0).to({regX:353.8,regY:224.4,scaleX:1,scaleY:1,x:380.6,y:468,alpha:1},5,cjs.Ease.get(1)).to({_off:true},49).wait(24).to({_off:false},0).to({_off:true},8).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(14).to({_off:false},0).to({regX:353.8,regY:224.4,scaleX:1,scaleY:1,x:380.6,y:468,alpha:1},5,cjs.Ease.get(1)).to({_off:true},32).wait(35).to({_off:false},0).to({_off:true},8).wait(16));
 
 	// 元件 65
 	this.instance_6 = new lib.元件67("synched",0);
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(510.7,941.5,1,1,0,0,0,306.7,264.6);
+	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({_off:true},62).wait(24).to({_off:false,startPosition:86},0).to({_off:true},8).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(7).to({_off:false},0).to({_off:true},44).wait(35).to({_off:false,startPosition:79},0).to({_off:true},8).wait(16));
 
 	// 元件 60
 	this.instance_7 = new lib.元件68("synched",0,false);
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(257.9,150.3,1,1,0,0,0,257.9,150.3);
+	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({_off:true},62).wait(24).to({_off:false,startPosition:86},0).to({_off:true},8).wait(10));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(7).to({_off:false},0).to({_off:true},44).wait(35).to({_off:false,startPosition:79},0).to({_off:true},8).wait(16));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,-90.4,750,1381.2);
+p.nominalBounds = null;
 
 
 (lib.元件38 = function(mode,startPosition,loop) {
@@ -4489,7 +4497,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0.5,43.7,43.7);
 	this.instance.setTransform(1144.6,1021.7,1,1,0,0,0,188,48.4);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(18).to({_off:false},0).to({_off:true},56).wait(42));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(18).to({_off:false},0).to({_off:true},29).wait(69));
 
 	// 图层 4
 	this.instance_1 = new lib.元件7("synched",0,false);
@@ -4497,7 +4505,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0.5,43.7,43.7);
 	this.instance_1.setTransform(1140.1,601.2,1.113,1.113,0,0,0,375.1,56.1);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(13).to({_off:false},0).to({_off:true},61).wait(42));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(13).to({_off:false},0).to({_off:true},34).wait(69));
 
 	// 图层 5
 	this.instance_2 = new lib.元件26("synched",0,false);
@@ -4505,14 +4513,14 @@ p.nominalBounds = new cjs.Rectangle(0.2,0.5,43.7,43.7);
 	this.instance_2.setTransform(1162.6,106.1,1,1,0,0,0,180.8,48.7);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(5).to({_off:false},0).to({_off:true},69).wait(42));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(5).to({_off:false},0).to({_off:true},42).wait(69));
 
 	// 图层 6
 	this.instance_3 = new lib.元件5("synched",0,false);
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(1130.1,803.3,1,1,0,0,0,326.5,107.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},74).wait(42));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},47).wait(69));
 
 	// 图层 1
 	this.instance_4 = new lib.元件22("synched",0,false);
@@ -4520,7 +4528,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0.5,43.7,43.7);
 	this.instance_4.setTransform(951.4,707.8,1,1,0,0,0,951.4,707.8);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(15).to({_off:false},0).to({_off:true},59).wait(42));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(15).to({_off:false},0).to({_off:true},32).wait(69));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(1052.3,713,524.1,209.5);
@@ -4535,7 +4543,7 @@ p.nominalBounds = new cjs.Rectangle(1052.3,713,524.1,209.5);
 	this.instance.setTransform(1481.6,306.8,1,1,0,0,0,124,127.9);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(108));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).to({_off:true},113).wait(5));
 
 	// <Clip Group>_1
 	this.instance_1 = new lib.ClipGroup_1_2();
@@ -4543,7 +4551,7 @@ p.nominalBounds = new cjs.Rectangle(1052.3,713,524.1,209.5);
 	this.instance_1.setTransform(1444.8,1172,0.28,0.28,0,0,0,1634.9,774.4);
 	this.instance_1.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({y:1284,alpha:1},4,cjs.Ease.get(1)).to({y:1261.6},12,cjs.Ease.get(1)).wait(95));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({y:1284,alpha:1},6,cjs.Ease.get(1)).to({y:1261.6},12,cjs.Ease.get(1)).to({_off:true},98).wait(5));
 
 	// 元件 8
 	this.instance_2 = new lib.元件8();
@@ -4551,7 +4559,7 @@ p.nominalBounds = new cjs.Rectangle(1052.3,713,524.1,209.5);
 	this.instance_2.setTransform(829.6,159.4,1,1,0,0,0,138.6,158.8);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(6).to({_off:false},0).to({y:252.2},4,cjs.Ease.get(1)).to({y:229.8},12,cjs.Ease.get(1)).wait(89));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(6).to({_off:false},0).to({y:252.2},6,cjs.Ease.get(1)).to({y:229.8},12,cjs.Ease.get(1)).to({_off:true},92).wait(5));
 
 	// 元件 6
 	this.instance_3 = new lib.元件6();
@@ -4559,7 +4567,7 @@ p.nominalBounds = new cjs.Rectangle(1052.3,713,524.1,209.5);
 	this.instance_3.setTransform(961.4,130.9,1,1,0,0,0,146.1,123.9);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(4).to({_off:false},0).to({y:217.3},4,cjs.Ease.get(1)).to({y:194.9},12,cjs.Ease.get(1)).wait(91));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(4).to({_off:false},0).to({y:217.3},6,cjs.Ease.get(1)).to({y:194.9},11,cjs.Ease.get(1)).to({_off:true},95).wait(5));
 
 	// <Clip Group>
 	this.instance_4 = new lib.ClipGroup_1();
@@ -4568,7 +4576,7 @@ p.nominalBounds = new cjs.Rectangle(1052.3,713,524.1,209.5);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(2).to({_off:false},0).to({y:162.2,alpha:1},4,cjs.Ease.get(1)).to({y:139.8},12,cjs.Ease.get(1)).wait(93));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(2).to({_off:false},0).to({y:162.2,alpha:1},4,cjs.Ease.get(1)).to({y:139.8},12,cjs.Ease.get(1)).to({_off:true},98).wait(5));
 
 	// 元件 25
 	this.instance_5 = new lib.元件25();
@@ -4576,7 +4584,7 @@ p.nominalBounds = new cjs.Rectangle(1052.3,713,524.1,209.5);
 	this.instance_5.setTransform(794,1118.8,1,1,0,0,0,128.8,126.7);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(2).to({_off:false},0).to({y:1000.4},4).to({y:1013.2},12).wait(93));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(2).to({_off:false},0).to({y:1000.4},4).to({y:1013.2},12).to({_off:true},98).wait(5));
 
 	// 元件 14
 	this.instance_6 = new lib.元件14_1("synched",0);
@@ -4584,7 +4592,7 @@ p.nominalBounds = new cjs.Rectangle(1052.3,713,524.1,209.5);
 	this.instance_6.setTransform(458,726.7,0.28,0.28,0,0,0,1634.8,774);
 	this.instance_6.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({y:608.3,alpha:1},4).to({y:621.1},12).wait(95));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({y:608.3,alpha:1},4).to({y:621.1},12).to({_off:true},100).wait(5));
 
 	// 元件 59
 	this.instance_7 = new lib.元件59();
@@ -4592,7 +4600,7 @@ p.nominalBounds = new cjs.Rectangle(1052.3,713,524.1,209.5);
 	this.instance_7.setTransform(1525.2,1209,1,1,0,0,0,80.4,90.9);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(4).to({_off:false},0).to({y:1090.6},4).to({y:1103.4},12).wait(91));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(4).to({_off:false},0).to({y:1090.6},6).to({y:1103.4},14).to({_off:true},92).wait(5));
 
 	// 图层 2
 	this.instance_8 = new lib.ClipGroupsdfsfsdsdfs();
@@ -4601,7 +4609,7 @@ p.nominalBounds = new cjs.Rectangle(1052.3,713,524.1,209.5);
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(2).to({_off:false},0).to({y:1093.8,alpha:1},4).to({y:1106.6},12).wait(93));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(2).to({_off:false},0).to({y:1093.8,alpha:1},6).to({y:1106.6},14).to({_off:true},94).wait(5));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
@@ -4616,7 +4624,7 @@ p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
 	this.instance.setTransform(806.7,238.6,1,1,0,0,0,114.2,93.3);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).wait(87));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).wait(105));
 
 	// 元件 17
 	this.instance_1 = new lib.元件17("synched",0);
@@ -4624,7 +4632,7 @@ p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
 	this.instance_1.setTransform(837.6,383.4,1,1,0,0,0,168.9,146.3);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2).to({_off:false},0).to({y:469.8},4,cjs.Ease.get(1)).to({y:457},9,cjs.Ease.get(1)).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2).to({_off:false},0).to({y:469.8},6,cjs.Ease.get(1)).to({y:457},11,cjs.Ease.get(1)).wait(91));
 
 	// 元件 14
 	this.instance_2 = new lib.元件14_2("synched",0);
@@ -4632,7 +4640,7 @@ p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
 	this.instance_2.setTransform(834,405.1,0.28,0.28,0,0,0,2976.8,265.8);
 	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({y:491.5,alpha:1},4,cjs.Ease.get(1)).to({y:478.7},9,cjs.Ease.get(1)).wait(79));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({y:491.5,alpha:1},6,cjs.Ease.get(1)).to({y:478.7},11,cjs.Ease.get(1)).wait(93));
 
 	// 元件 16
 	this.instance_3 = new lib.元件16("synched",0);
@@ -4640,7 +4648,7 @@ p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
 	this.instance_3.setTransform(1473.3,43.2,1,1,0,0,0,97.7,116.1);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(6).to({_off:false},0).to({y:129.6},4,cjs.Ease.get(1)).to({y:116.8},9,cjs.Ease.get(1)).wait(73));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(6).to({_off:false},0).to({y:129.6},4,cjs.Ease.get(1)).to({y:116.8},9,cjs.Ease.get(1)).wait(91));
 
 	// <Clip Group>
 	this.instance_4 = new lib.ClipGroup_2();
@@ -4649,7 +4657,7 @@ p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(4).to({_off:false},0).to({y:167,alpha:1},4,cjs.Ease.get(1)).to({y:154.2},9,cjs.Ease.get(1)).wait(75));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(4).to({_off:false},0).to({y:167,alpha:1},4,cjs.Ease.get(1)).to({y:154.2},9,cjs.Ease.get(1)).wait(93));
 
 	// 元件 18
 	this.instance_5 = new lib.元件18("synched",0);
@@ -4657,7 +4665,7 @@ p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
 	this.instance_5.setTransform(784.1,1209,1,1,0,0,0,130.7,146.5);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(2).to({_off:false},0).to({y:1087.4},4,cjs.Ease.get(1)).to({y:1097},9,cjs.Ease.get(1)).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(2).to({_off:false},0).to({y:1087.4},4,cjs.Ease.get(1)).to({y:1097},9,cjs.Ease.get(1)).wait(95));
 
 	// 图层 2
 	this.instance_6 = new lib.ClipGroupsdfsf();
@@ -4665,7 +4673,7 @@ p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
 	this.instance_6.setTransform(703.5,1170.1,0.28,0.28,0,0,0,1635.3,774.6);
 	this.instance_6.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({y:1048.5,alpha:1},4,cjs.Ease.get(1)).to({y:1058.1},9,cjs.Ease.get(1)).wait(79));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({y:1048.5,alpha:1},4,cjs.Ease.get(1)).to({y:1058.1},9,cjs.Ease.get(1)).wait(97));
 
 	// 元件 20
 	this.instance_7 = new lib.元件20("synched",0);
@@ -4673,7 +4681,7 @@ p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
 	this.instance_7.setTransform(1511.1,1326.7,1,1,0,0,0,60,51.9);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(6).to({_off:false},0).to({y:1205.1},4,cjs.Ease.get(1)).to({y:1214.7},9,cjs.Ease.get(1)).wait(73));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(6).to({_off:false},0).to({y:1205.1},5,cjs.Ease.get(1)).to({y:1214.7},11,cjs.Ease.get(1)).wait(88));
 
 	// 元件 19
 	this.instance_8 = new lib.元件19("synched",0);
@@ -4681,7 +4689,7 @@ p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
 	this.instance_8.setTransform(1456.2,1307.9,1,1,0,0,0,95.9,92.8);
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(4).to({_off:false},0).to({y:1186.3},4,cjs.Ease.get(1)).to({y:1195.9},9,cjs.Ease.get(1)).wait(75));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(4).to({_off:false},0).to({y:1186.3},5,cjs.Ease.get(1)).to({y:1195.9},11,cjs.Ease.get(1)).wait(90));
 
 	// <Clip Group>_1
 	this.instance_9 = new lib.ClipGroup_1_3();
@@ -4690,7 +4698,7 @@ p.nominalBounds = new cjs.Rectangle(765.6,38.4,751.2,1167.9);
 	this.instance_9.alpha = 0;
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(2).to({_off:false},0).to({y:1253.9,alpha:1},4,cjs.Ease.get(1)).to({y:1263.5},9,cjs.Ease.get(1)).wait(77));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(2).to({_off:false},0).to({y:1253.9,alpha:1},5,cjs.Ease.get(1)).to({y:1263.5},11,cjs.Ease.get(1)).wait(92));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(766.2,329.6,150.9,969.3);
@@ -4736,7 +4744,7 @@ p.nominalBounds = new cjs.Rectangle(264,20.8,446,191.5);
 	this.instance.setTransform(1144.6,1021.7,1,1,0,0,0,188,48.4);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(18).to({_off:false},0).to({_off:true},60).wait(24).to({_off:false,startPosition:84},0).to({_off:true},13).wait(16));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(18).to({_off:false},0).to({_off:true},24).wait(60).to({_off:false,startPosition:84},0).to({_off:true},13).wait(16));
 
 	// 图层 4
 	this.instance_1 = new lib.元件7_1("synched",0,false);
@@ -4744,7 +4752,7 @@ p.nominalBounds = new cjs.Rectangle(264,20.8,446,191.5);
 	this.instance_1.setTransform(1140.1,601.2,1.113,1.113,0,0,0,375.1,56.1);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(13).to({_off:false},0).to({_off:true},65).wait(24).to({_off:false,startPosition:89},0).to({_off:true},13).wait(16));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(13).to({_off:false},0).to({_off:true},29).wait(60).to({_off:false,startPosition:89},0).to({_off:true},13).wait(16));
 
 	// 图层 5
 	this.instance_2 = new lib.元件26_1("synched",0,false);
@@ -4752,14 +4760,14 @@ p.nominalBounds = new cjs.Rectangle(264,20.8,446,191.5);
 	this.instance_2.setTransform(1262.4,106.1,1,1,0,0,0,180.8,48.7);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(5).to({_off:false},0).to({_off:true},73).wait(24).to({_off:false,startPosition:97},0).to({_off:true},13).wait(16));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(5).to({_off:false},0).to({_off:true},37).wait(60).to({_off:false,startPosition:97},0).to({_off:true},13).wait(16));
 
 	// 图层 6
 	this.instance_3 = new lib.元件5_1("synched",0,false);
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(1130.1,803.3,1,1,0,0,0,326.5,107.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},78).wait(24).to({_off:false,startPosition:102},0).to({_off:true},13).wait(16));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},42).wait(60).to({_off:false,startPosition:102},0).to({_off:true},13).wait(16));
 
 	// 图层 1
 	this.instance_4 = new lib.元件22_1("synched",0,false);
@@ -4767,7 +4775,7 @@ p.nominalBounds = new cjs.Rectangle(264,20.8,446,191.5);
 	this.instance_4.setTransform(951.4,707.8,1,1,0,0,0,951.4,707.8);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(15).to({_off:false},0).to({_off:true},63).wait(24).to({_off:false,startPosition:87},0).to({_off:true},13).wait(16));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(15).to({_off:false},0).to({_off:true},27).wait(60).to({_off:false,startPosition:87},0).to({_off:true},13).wait(16));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(1051.4,706.9,451.2,241.4);
@@ -4782,7 +4790,7 @@ p.nominalBounds = new cjs.Rectangle(1051.4,706.9,451.2,241.4);
 	this.instance.setTransform(1144.6,1021.7,1,1,0,0,0,188,48.4);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(17).to({_off:false},0).to({_off:true},58).wait(11).to({_off:false,startPosition:69},0).to({_off:true},9).wait(48));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(17).to({_off:false},0).to({_off:true},29).wait(40).to({_off:false,startPosition:69},0).to({_off:true},9).wait(48));
 
 	// 图层 4
 	this.instance_1 = new lib.元件7_2("synched",0,false);
@@ -4790,7 +4798,7 @@ p.nominalBounds = new cjs.Rectangle(1051.4,706.9,451.2,241.4);
 	this.instance_1.setTransform(1140.1,601.2,1.113,1.113,0,0,0,375.1,56.1);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(13).to({_off:false},0).to({_off:true},62).wait(11).to({_off:false,startPosition:73},0).to({_off:true},9).wait(48));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(13).to({_off:false},0).to({_off:true},33).wait(40).to({_off:false,startPosition:73},0).to({_off:true},9).wait(48));
 
 	// 图层 5
 	this.instance_2 = new lib.元件26_2("synched",0,false);
@@ -4798,14 +4806,14 @@ p.nominalBounds = new cjs.Rectangle(1051.4,706.9,451.2,241.4);
 	this.instance_2.setTransform(975.4,106.1,1,1,0,0,0,180.8,48.7);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(5).to({_off:false},0).to({_off:true},70).wait(11).to({_off:false,startPosition:81},0).to({_off:true},9).wait(48));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(5).to({_off:false},0).to({_off:true},41).wait(40).to({_off:false,startPosition:81},0).to({_off:true},9).wait(48));
 
 	// 图层 6
 	this.instance_3 = new lib.元件5_2("synched",0,false);
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(1130.1,803.3,1,1,0,0,0,326.5,107.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},75).wait(11).to({_off:false,startPosition:86},0).to({_off:true},9).wait(48));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({_off:true},46).wait(40).to({_off:false,startPosition:86},0).to({_off:true},9).wait(48));
 
 	// 图层 1
 	this.instance_4 = new lib.元件22_2("synched",0,false);
@@ -4813,18 +4821,18 @@ p.nominalBounds = new cjs.Rectangle(1051.4,706.9,451.2,241.4);
 	this.instance_4.setTransform(951.4,707.8,1,1,0,0,0,951.4,707.8);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(12).to({_off:false},0).to({_off:true},63).wait(11).to({_off:false,startPosition:74},0).to({_off:true},9).wait(48));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(12).to({_off:false},0).to({_off:true},34).wait(40).to({_off:false,startPosition:74},0).to({_off:true},9).wait(48));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 
 
 // stage content:
-(lib.meituan32 = function(mode,startPosition,loop) {
+(lib.meituan34 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
-	this.frame_61 = function() {
+	this.frame_50 = function() {
 		this.stop();
 		/* 单击以转到帧并播放
 		单击指定的元件实例会将播放头移动到时间轴中的指定帧并继续从该帧回放。
@@ -4857,7 +4865,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 		}
 		//this.button_4.removeEventListener("touchmove");
 	}
-	this.frame_143 = function() {
+	this.frame_103 = function() {
 		this.stop();
 		/* 单击以转到帧并播放
 		单击指定的元件实例会将播放头移动到时间轴中的指定帧并继续从该帧回放。
@@ -4882,7 +4890,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 			});
 		//this.button_4.removeEventListener("touchmove");
 	}
-	this.frame_226 = function() {
+	this.frame_150 = function() {
 		this.stop();
 		/* 单击以转到帧并播放
 		单击指定的元件实例会将播放头移动到时间轴中的指定帧并继续从该帧回放。
@@ -4907,7 +4915,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 			});
 		//this.button_4.removeEventListener("touchmove");
 	}
-	this.frame_303 = function() {
+	this.frame_200 = function() {
 		this.stop();
 		//this.button_4.addEventListener("touchmove", fl_ClickToGoToAndPlayFromFrame_3.bind(this));
 		var that=this;
@@ -4916,17 +4924,25 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 			$("#animation_container").addClass("hide");
 			$(".information").addClass("show");
 			$("#ending").addClass("shaw");
-			//$(".inf-02").addClass("aa01");
-			//$(".inf-03").addClass("aa02");
-			//$(".inf-04").addClass("aa03");
-			//$(".inf-05").addClass("bb");
+			
+			$(".inf-02").addClass("aa01");
+			$(".inf-03").addClass("aa02");
+			$(".inf-04").addClass("aa03");
+			$(".inf-05").addClass("bb");
+			$(".inf-text").addClass("text");
+			var timer = null;
+			timer = setTimeout(function(){
+					$(".inf-05").addClass("join-click");
+				clearTimeout(timer);
+				timer=null;
+				},2400);
 			console.log(999);
 			$("body").unbind("touchmove");
 			});
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(61).call(this.frame_61).wait(82).call(this.frame_143).wait(83).call(this.frame_226).wait(77).call(this.frame_303).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this).wait(50).call(this.frame_50).wait(53).call(this.frame_103).wait(47).call(this.frame_150).wait(50).call(this.frame_200).wait(2));
 
 	// 按钮
 	this.button_4 = new lib.元件99();
@@ -4936,7 +4952,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 	this.button_4._off = true;
 	new cjs.ButtonHelper(this.button_4, 0, 1, 2, false, new lib.元件99(), 3);
 
-	this.timeline.addTween(cjs.Tween.get(this.button_4).wait(28).to({_off:false},0).to({y:1143.2,alpha:1},7,cjs.Ease.get(1)).to({_off:true},27).wait(59).to({_off:false,y:1167.2,alpha:0},0).to({y:1143.2,alpha:1},7,cjs.Ease.get(1)).to({_off:true},16).wait(60).to({_off:false,y:1167.2,alpha:0},0).to({y:1143.2,alpha:1},7,cjs.Ease.get(1)).to({_off:true},16).wait(54).to({_off:false,y:1167.2,alpha:0},0).to({y:1143.2,alpha:1},7,cjs.Ease.get(1)).to({_off:true},16).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.button_4).wait(33).to({_off:false},0).to({y:1143.2,alpha:1},7,cjs.Ease.get(1)).to({_off:true},11).wait(37).to({_off:false,y:1167.2,alpha:0},0).to({y:1143.2,alpha:1},7,cjs.Ease.get(1)).to({_off:true},9).wait(31).to({_off:false,y:1167.2,alpha:0},0).to({y:1143.2,alpha:1},7,cjs.Ease.get(1)).to({_off:true},9).wait(29).to({_off:false,y:1167.2,alpha:0},0).to({y:1143.2,alpha:1},7,cjs.Ease.get(1)).to({_off:true},14).wait(1));
 
 	// 图层 3 (mask)
 	var mask = new cjs.Shape();
@@ -4956,7 +4972,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(231).to({_off:false},0).wait(74));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(155).to({_off:false},0).wait(47));
 
 	// 图层 14
 	this.instance_1 = new lib.元件23_1("synched",0,false);
@@ -4970,7 +4986,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(148).to({_off:false},0).wait(78).to({startPosition:102},0).to({y:106.9,alpha:0,startPosition:111},9,cjs.Ease.get(1)).to({_off:true},4).wait(66));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(108).to({_off:false},0).wait(42).to({startPosition:102},0).to({y:106.9,alpha:0,startPosition:111},9,cjs.Ease.get(1)).to({_off:true},4).wait(39));
 
 	// 图层 1
 	this.instance_2 = new lib.元件23_2("synched",0,false);
@@ -4984,7 +5000,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(68).to({_off:false},0).wait(75).to({startPosition:86},0).to({y:0.8,alpha:0,startPosition:94},8,cjs.Ease.get(1)).to({_off:true},1).wait(153));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(57).to({_off:false},0).wait(46).to({startPosition:86},0).to({y:0.8,alpha:0,startPosition:94},8,cjs.Ease.get(1)).to({_off:true},1).wait(90));
 
 	// 图层 2
 	this.instance_3 = new lib.元件66("synched",0);
@@ -4997,7 +5013,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(62).to({startPosition:86},0).to({y:-189,alpha:0,startPosition:92},8,cjs.Ease.get(1)).to({_off:true},1).wait(234));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(51).to({startPosition:86},0).to({y:-189,alpha:0,startPosition:92},8,cjs.Ease.get(1)).to({_off:true},1).wait(142));
 
 	// 图层 4
 	this.shape = new cjs.Shape();
@@ -5010,7 +5026,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(305));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(202));
 
 	// 图层 10
 	this.instance_4 = new lib.BB();
@@ -5022,7 +5038,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(305));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(202));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(375,603,750,1206);
@@ -5030,16 +5046,17 @@ p.nominalBounds = new cjs.Rectangle(375,603,750,1206);
 lib.properties = {
 	width: 750,
 	height: 1206,
-	fps: 28,
+	fps: 24,
 	color: "#E1E7EB",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_35wegsew.png?1491554711585", id:"_35wegsew"},
-		{src:"images/asfasfa.png?1491554711585", id:"asfasfa"},
-		{src:"images/BB.jpg?1491554711585", id:"BB"},
-		{src:"images/efzfafa.png?1491554711585", id:"efzfafa"},
-		{src:"images/etsdgset.png?1491554711585", id:"etsdgset"},
-		{src:"images/setsdgs.png?1491554711585", id:"setsdgs"}
+		{src:"images/_35wegsew.png?1491811369500", id:"_35wegsew"},
+		{src:"images/asfasfa.png?1491811369500", id:"asfasfa"},
+		{src:"images/BB.jpg?1491811369500", id:"BB"},
+		{src:"images/efzfafa.png?1491811369500", id:"efzfafa"},
+		{src:"images/etsdgset.png?1491811369500", id:"etsdgset"},
+		{src:"images/setsdgs.png?1491811369500", id:"setsdgs"},
+		{src:"images/stwetetw.png?1491811369500", id:"stwetetw"}
 	],
 	preloads: []
 };
