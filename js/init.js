@@ -10,7 +10,7 @@ function ImgLoadingByFile(imgArray){
 	        $("#animation_container").show();
 	        clearTimeout(timer);
 	        timer=null;
-        },500);
+        },300);
     }else{
         var imgLoad = 0;
         if(imgArray.length>0){
@@ -40,7 +40,7 @@ function ImgLoadingByFile(imgArray){
                             	sessionStorage.setItem("pageloaded", "true");       
                              	clearTimeout(timer);
             					timer=null;
-                        	},500);
+                        	},300);
                             
                         }
 //                  }
