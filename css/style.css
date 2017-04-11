@@ -313,7 +313,7 @@ select {
   opacity: 0;
 }
 .inf-03 {
-  width: 8.16rem;
+  width: 8.18666667rem;
   height: 2.38666667rem;
   position: absolute;
   bottom: 5.68rem;
@@ -321,10 +321,10 @@ select {
   opacity: 0;
 }
 .inf-04 {
-  width: 8.16rem;
-  height: 3.34666667rem;
+  width: 8.2rem;
+  height: 2.29333333rem;
   position: absolute;
-  bottom: 2.13333333rem;
+  bottom: 3.06666667rem;
   left: 0.92rem;
   opacity: 0;
 }
@@ -334,6 +334,14 @@ select {
   position: absolute;
   bottom: 0.61333333rem;
   left: 2.62666667rem;
+  opacity: 0;
+}
+.inf-06 {
+  width: 6.76rem;
+  height: 0.89333333rem;
+  position: absolute;
+  bottom: 2.13333333rem;
+  left: 0.90666667rem;
   opacity: 0;
 }
 .text {
