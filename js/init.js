@@ -2,14 +2,15 @@
 function ImgLoadingByFile(imgArray){
     if(sessionStorage.getItem("pageloaded")){
         $('#img-loading-txt').html('100%');
-         init();
          
+         init();
         var timer = null;
         timer = setTimeout(function(){
 	        $("#loadingPage").hide();
             $('#img-loading-txt').html('100%');
     		$(".btn-music").show();
         	$("#animation_container").show();
+        	
 	        clearTimeout(timer);
 	        timer=null;
         },300);
@@ -31,15 +32,15 @@ function ImgLoadingByFile(imgArray){
                     console.log(percent);
 
                         if(percent >= 100) {
-                        	init();
                         	
+                        	 init();
                         	var timer = null;
                         	timer = setTimeout(function(){
                         		$("#loadingPage").hide();
                         		$('#img-loading-txt').html('100%');
                         		$(".btn-music").show();
                             	$("#animation_container").show();
-                                 
+                               
                             	sessionStorage.setItem("pageloaded", "true");       
                              	clearTimeout(timer);
             					timer=null;

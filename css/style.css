@@ -324,7 +324,7 @@ select {
   width: 8.2rem;
   height: 2.29333333rem;
   position: absolute;
-  bottom: 3.06666667rem;
+  bottom: 3.13333333rem;
   left: 0.92rem;
   opacity: 0;
 }
@@ -832,6 +832,7 @@ select {
 }
 .prize-result .prize-result-info {
   box-sizing: border-box;
+  border-radius: 8px;
   position: absolute;
   width: 100%;
   padding: 0.86666667rem;

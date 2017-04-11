@@ -1,7 +1,7 @@
-//动画开始播放音乐
+
+    musicStar.src="video/H.mp3";
     musicStar.load();
-    musicStar.src="video/lll.mp3";
-    musicStar.play();
+	musicStar.play(); 
     $(".open").click(function(){
         musicStar.pause();
         $(this).css("display","none");
