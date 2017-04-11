@@ -19,6 +19,14 @@
     	$("#ending").addClass('shew');
     	$("#animation_container").css("opacity","0");
     });
+    $('#rule-icon').click(function(){
+                    $('#actionRules').show();
+                    $('#userInfo').hide();
+                });
+    $('#actionRules').unbind('click').bind('click',function(){
+                    $('#actionRules').hide();
+                    $("#userInfo").show();
+                });
 $(function(){
 	var imgFile = [
     './img/loading.gif',

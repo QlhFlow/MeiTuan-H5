@@ -109,12 +109,14 @@ var SaveInfo = {
                 SaveInfo.city = $('select[name="ddlCity"] option:selected').val();
                 SaveInfo.agency = $('select[name="agency"] option:selected').val();
                 SaveInfo.cartype = $('select[name="cartype"] option:selected').val();
+                
                 var data = {
                     username:SaveInfo.username,
                     numberphone:SaveInfo.phone,
                     dealer:SaveInfo.province+','+SaveInfo.city+','+SaveInfo.agency,
                     model:SaveInfo.cartype,
-                    key:SaveInfo.key
+                    key:SaveInfo.key,
+                    source:1
                 };
                 
                 $.ajax({
