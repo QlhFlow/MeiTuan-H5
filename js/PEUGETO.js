@@ -4929,6 +4929,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 			$(".inf-03").addClass("aa02");
 			$(".inf-04").addClass("aa03");
 			$(".inf-05").addClass("bb");
+			$(".inf-06").addClass("aa03");
 			$(".inf-text").addClass("text");
 			var timer = null;
 			timer = setTimeout(function(){
@@ -5050,13 +5051,13 @@ lib.properties = {
 	color: "#E1E7EB",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_35wegsew.png?1491811369500", id:"_35wegsew"},
-		{src:"images/asfasfa.png?1491811369500", id:"asfasfa"},
-		{src:"images/BB.jpg?1491811369500", id:"BB"},
-		{src:"images/efzfafa.png?1491811369500", id:"efzfafa"},
-		{src:"images/etsdgset.png?1491811369500", id:"etsdgset"},
-		{src:"images/setsdgs.png?1491811369500", id:"setsdgs"},
-		{src:"images/stwetetw.png?1491811369500", id:"stwetetw"}
+		{src:"images/_35wegsew.png?1491882872033", id:"_35wegsew"},
+		{src:"images/asfasfa.png?1491882872033", id:"asfasfa"},
+		{src:"images/BB.jpg?1491882872033", id:"BB"},
+		{src:"images/efzfafa.png?1491882872033", id:"efzfafa"},
+		{src:"images/etsdgset.png?1491882872033", id:"etsdgset"},
+		{src:"images/setsdgs.png?1491882872033", id:"setsdgs"},
+		{src:"images/stwetetw.png?1491882872033", id:"stwetetw"}
 	],
 	preloads: []
 };
