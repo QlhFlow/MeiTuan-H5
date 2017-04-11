@@ -15,6 +15,7 @@ var SaveInfo = {
 		    type:'get',
 		    url:'https://fld.xingyuanauto.com/public/index.php/port/Aes/GetEncrypt',
 		    success:function(key){  
+		    	
 		        if(key){
 		        	SaveInfo.key = key;
 		        	SaveInfo.updateView();
@@ -91,12 +92,14 @@ var SaveInfo = {
         agencyReg = selectReg('agency');
         cartypeReg = selectReg('cartype');
         var total = usernameReg&&phoneReg&&provinceReg&&cityReg&&agencyReg&&cartypeReg;
+        
         return total;
     },
     submit:function(){
         var btnUserInfo = document.getElementById('btn-userInfo');
         $('#btn-userInfo').unbind('click');
         $('#btn-userInfo').bind('click',function(e){
+        	
             e.preventDefault();
             //var key = $("input[name='key']").val();
             if(SaveInfo.clickReg()){
