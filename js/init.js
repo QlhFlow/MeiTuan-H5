@@ -39,15 +39,13 @@ function ImgLoadingByFile(imgArray){
                         		$("#loadingPage").hide();
                         		$('#img-loading-txt').html('100%');
                         		$(".btn-music").show();
-                            	$("#animation_container").show();
-                               
+                            	$("#animation_container").show();                               
                             	sessionStorage.setItem("pageloaded", "true");       
                              	clearTimeout(timer);
             					timer=null;
                         	},300);
                             
                         }
-
                 }
             }
         }
