@@ -4892,23 +4892,7 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 	// timeline functions:
 	this.frame_42 = function() {
 		this.stop();
-		/* 单击以转到帧并播放
-		单击指定的元件实例会将播放头移动到时间轴中的指定帧并继续从该帧回放。
-		可在主时间轴或影片剪辑时间轴上使用。
 		
-		说明:
-		1. 单击元件实例时，用希望播放头移动到的帧编号替换以下代码中的数字 5。
-		2. EaselJS 中的帧编号从 0 开始而不是从 1 开始
-		*/
-		
-		//this.button_5.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_6.bind(this));
-		
-		//function fl_ClickToGoToAndPlayFromFrame_6()
-		//{
-			//this.play();
-		//}
-		
-		//this.button_4.addEventListener("touchmove", fl_ClickToGoToAndPlayFromFrame_3.bind(this));
 		var that=this;
 		$("body").bind("touchmove",function(){
 			that.play();
@@ -4917,65 +4901,35 @@ p.nominalBounds = new cjs.Rectangle(1067.6,716.9,446,191.6);
 			});
 		function fl_ClickToGoToAndPlayFromFrame_3()
 		{
-			//e.preventDefault();
-			//console.log(666);
 			
 		}
-		//this.button_4.removeEventListener("touchmove");
+		
 	}
 	this.frame_95 = function() {
 		this.stop();
-		/* 单击以转到帧并播放
-		单击指定的元件实例会将播放头移动到时间轴中的指定帧并继续从该帧回放。
-		可在主时间轴或影片剪辑时间轴上使用。
 		
-		说明:
-		1. 单击元件实例时，用希望播放头移动到的帧编号替换以下代码中的数字 5。
-		2. EaselJS 中的帧编号从 0 开始而不是从 1 开始
-		*/
-		
-		//this.button_5.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_6.bind(this));
-		
-		//function fl_ClickToGoToAndPlayFromFrame_6()
-		//{
-			//this.play();
-		//}
 		var that=this;
 		$("body").bind("touchmove",function(){
 			that.play();
 			console.log(999);
 			$("body").unbind("touchmove");
 			});
-		//this.button_4.removeEventListener("touchmove");
+		
 	}
 	this.frame_142 = function() {
 		this.stop();
-		/* 单击以转到帧并播放
-		单击指定的元件实例会将播放头移动到时间轴中的指定帧并继续从该帧回放。
-		可在主时间轴或影片剪辑时间轴上使用。
 		
-		说明:
-		1. 单击元件实例时，用希望播放头移动到的帧编号替换以下代码中的数字 5。
-		2. EaselJS 中的帧编号从 0 开始而不是从 1 开始
-		*/
-		
-		//this.button_5.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_6.bind(this));
-		
-		//function fl_ClickToGoToAndPlayFromFrame_6()
-		//{
-			//this.play();
-		//}
 		var that=this;
 		$("body").bind("touchmove",function(){
 			that.play();
 			console.log(999);
 			$("body").unbind("touchmove");
 			});
-		//this.button_4.removeEventListener("touchmove");
+		
 	}
 	this.frame_192 = function() {
 		this.stop();
-		//this.button_4.addEventListener("touchmove", fl_ClickToGoToAndPlayFromFrame_3.bind(this));
+		
 		var that=this;
 		$("body").bind("touchmove",function(){
 			that.stop();
