@@ -45,8 +45,8 @@ $(function(){
     './img/join.png',
     './img/write01.png',
     './img/write02.png',
-    './img/write03.png'
-    
+    './img/write03.png',
+    './images/stwetetw.png'
 ];
 ImgLoadingByFile(imgFile);//canvas是动画页的DIV
 });
