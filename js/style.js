@@ -40,12 +40,13 @@ $(function(){
     './images/efzfafa.png',
     './images/etsdgset.png',
     './images/setsdgs.png',
+    './images/rsdgsdg.png',
     './img/gogogo.jpg',
     './img/join.png',
     './img/write01.png',
     './img/write02.png',
-    './img/write03.png',
-    './images/stwetetw.png'
+    './img/write03.png'
+    
 ];
 ImgLoadingByFile(imgFile);//canvas是动画页的DIV
 });
