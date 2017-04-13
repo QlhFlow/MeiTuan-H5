@@ -5,7 +5,7 @@
 		if(msg.start == 0){ 
           return alert(msg.message);
         }
-			var title ='4月健康餐——X008食谱，坐享轻松之路'; // 分享标题
+			var title ='4月健康餐——X008食谱  坐享轻松之路'; // 分享标题
             var link ='https://h5.xingyuanauto.com/Dongbiao/DbMeit/index.html';
             var desc = '东风标致X008 SUV三重钜惠豪华盛宴'; // 分享描述
             var imgUrl = 'https://h5.xingyuanauto.com/Dongbiao/DbMeit/img/xiaotu.jpg';
