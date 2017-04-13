@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>X008食谱坐享轻松之路</title>
+    <title>X008食谱 坐享轻松之路</title>
      <!-- <base href="h5cdn.xingyuanauto.com"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,shrink-to-fit=no">
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -20,7 +20,6 @@
 		})();
 	</script>
     <script>
-    	
         document.addEventListener("WeixinJSBridgeReady", function () {
             audioAutoPlay('musicStar');
         }, false);
@@ -185,7 +184,7 @@ function handleComplete(evt) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib.meituan341();
+	exportRoot = new lib.meituan342();
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);
 	stage.enableMouseOver();	

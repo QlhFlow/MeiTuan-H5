@@ -1,6 +1,3 @@
-/**
- * Created by jiangqian on 2017/3/18.
- */
 var SaveInfo = {
     username:null,
     phone:null,

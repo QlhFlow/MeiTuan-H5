@@ -49,9 +49,6 @@ $(function(){
     './images/stwetetw.png'
 ];
 ImgLoadingByFile(imgFile);//canvas是动画页的DIV
-});
-
-
 var ending = document.getElementById("ending");
 var information = document.getElementById("information");
 

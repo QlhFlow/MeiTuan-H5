@@ -1,4 +1,3 @@
-
 function ImgLoadingByFile(imgArray){
     if(sessionStorage.getItem("pageloaded")){
         $('#img-loading-txt').html('100%');
@@ -51,8 +50,6 @@ function ImgLoadingByFile(imgArray){
         }
     }
 }
-
-/******rem ����*******/
 (function(win){
     var remCalc = {};
     var docEl = win.document.documentElement,

@@ -1,14 +1,10 @@
-/**
- * Created by jiangqian on 2017/4/11.
- */
-
 var isInited = false; //初始化状态
 var shareConfig = {
     channel: '385',
-    content: '4月健康餐——X008食谱，坐享轻松之路',
+    content: '4月健康餐——X008食谱 坐享轻松之路',
     href: 'https://h5.xingyuanauto.com/Dongbiao/DbMeit/index.html',
     imageURL: 'https://h5.xingyuanauto.com/Dongbiao/DbMeit/img/xiaotu.jpg',
-    title: '东风标致X008 SUV三重钜惠豪华盛宴',
+    title: 'X008食谱 坐享轻松之路',
     success: null
 }; //配置参数
 function ready(callback) {
@@ -21,21 +17,16 @@ function ready(callback) {
             console.log('init failed');
         }
     }
-    // 如果有WebViewJavascriptBridge 这个全局变量，
-    // 则直接初始化它
     if (window.WebViewJavascriptBridge) {
         init(WebViewJavascriptBridge);
         callback(WebViewJavascriptBridge);
         return;
     }
-
-    // 否则添加监听事件再初始化
     document.addEventListener('WebViewJavascriptBridgeReady', function () {
         init(WebViewJavascriptBridge);
         callback(WebViewJavascriptBridge);
     }, false);
 }
-//设置分享
 function setShare(shareConfig) {
     ready(function (bridge) {
         bridge.callHandler('callNativeMethod', {
