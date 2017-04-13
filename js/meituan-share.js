@@ -1,10 +1,10 @@
 var isInited = false; //初始化状态
 var shareConfig = {
     channel: '385',
-    content: '四月健康餐 看完诱惑满满',
+    content: '东风标致X008 SUV三重钜惠豪华盛宴',
     href: 'https://h5.xingyuanauto.com/Dongbiao/DbMeit/index.html',
     imageURL: 'https://h5.xingyuanauto.com/Dongbiao/DbMeit/img/xiaotu.jpg',
-    title: 'X008食谱 坐享轻松之路',
+    title: '四月健康餐 看完诱惑满满',
     success: null
 }; //配置参数
 function ready(callback) {
