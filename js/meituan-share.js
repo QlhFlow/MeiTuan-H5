@@ -1,7 +1,7 @@
 var isInited = false; //初始化状态
 var shareConfig = {
     channel: '385',
-    content: '4月健康餐——X008食谱 坐享轻松之路',
+    content: '四月健康餐 看完诱惑满满',
     href: 'https://h5.xingyuanauto.com/Dongbiao/DbMeit/index.html',
     imageURL: 'https://h5.xingyuanauto.com/Dongbiao/DbMeit/img/xiaotu.jpg',
     title: 'X008食谱 坐享轻松之路',
