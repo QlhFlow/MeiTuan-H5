@@ -48,7 +48,3 @@ function setShare(shareConfig) {
     
 }
 setShare(shareConfig);//调用设置分享的方法
-
-
-
-
