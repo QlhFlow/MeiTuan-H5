@@ -9,7 +9,7 @@ function ImgLoadingByFile(imgArray){
             $('#img-loading-txt').html('100%');
     		$(".btn-music").show();
         	$("#animation_container").show();
-        	
+        	$("#musicStar").play();
 	        clearTimeout(timer);
 	        timer=null;
         },300);
