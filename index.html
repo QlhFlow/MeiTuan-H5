@@ -20,17 +20,15 @@
 		})();
 	</script>
     <script>
-//      document.addEventListener("WeixinJSBridgeReady", function () {
-//          audioAutoPlay('musicStar');
-//      }, false);
-//      
+        document.addEventListener("WeixinJSBridgeReady", function () {
+            audioAutoPlay('musicStar');
+        }, false);
+     
         document.addEventListener('DOMContentLoaded', function () {
     function AutoPlay() {
         var audio = document.getElementById('musicStar');
             audio.play();
-        document.addEventListener("WeixinJSBridgeReady", function () {
-            audioAutoPlay('musicStar');
-        }, false);
+       
     }
     AutoPlay();
 });
