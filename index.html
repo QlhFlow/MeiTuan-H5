@@ -20,9 +20,20 @@
 		})();
 	</script>
     <script>
+//      document.addEventListener("WeixinJSBridgeReady", function () {
+//          audioAutoPlay('musicStar');
+//      }, false);
+//      
+        document.addEventListener('DOMContentLoaded', function () {
+    function audioAutoPlay() {
+        var audio = document.getElementById('musicStar');
+            audio.play();
         document.addEventListener("WeixinJSBridgeReady", function () {
             audioAutoPlay('musicStar');
         }, false);
+    }
+    audioAutoPlay();
+});
     </script>
 </head>
 <body>
@@ -132,8 +143,8 @@
 <script src="js/biaodan.js" type="text/javascript" charset="utf-8"></script>
 <script src="https://h5.xingyuanauto.com/weixin_serve/jssdk/js/jweixin-1.0.0.js"></script>
 <script src="js/wx_share.js"></script>
-<script src="js/knb.js"></script>
-<script src="js/meituan-share.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="js/knb.js"></script>-->
+<!--<script src="js/meituan-share.js" type="text/javascript" charset="utf-8"></script>-->
 
 
 <script>
@@ -147,6 +158,8 @@
         document.addEventListener("touchstart",play, false);
     }
     var isAppInside=/micromessenger/i.test(navigator.userAgent.toLowerCase())||/yixin/i.test(navigator.userAgent.toLowerCase());
+    
+    
     
     
     $(function(){

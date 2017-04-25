@@ -1,7 +1,39 @@
 
-    musicStar.src="video/H.mp3";
+ 
+$(function(){
+	var imgFile = [
+    './img/loading.gif',
+    './img/onetwothree.png',
+    './img/musicclose.png',
+    './img/musicopen.png',
+    './images/_35wegsew.png',
+    './images/asfasfa.png',
+    './images/BB.jpg',
+    './img/three.png',
+    './images/efzfafa.png',
+    './images/etsdgset.png',
+    './images/setsdgs.png',
+    './images/rsdgsdg.png',
+    './img/gogogo.jpg',
+    './img/join.png',
+    './img/write01.png',
+    './img/write02.png',
+    './img/write03.png',
+    './images/stwetetw.png'
+];
+	ImgLoadingByFile(imgFile);//canvas是动画页的DIV
+	musicStar.src="video/H.mp3";
     musicStar.load();
 	musicStar.play(); 
+	var firstTouch = true;
+$('body').bind("touchstart",function(e){
+    if ( firstTouch ) {
+        firstTouch = false;
+        musicStar.play();
+    }else{
+        return;
+    }
+});
     $(".open").click(function(){
         musicStar.pause();
         $(this).css("display","none");
@@ -27,34 +59,15 @@
         $('#actionRules').hide();
         $("#userInfo").show();
     });
-$(function(){
-	var imgFile = [
-    './img/loading.gif',
-    './img/onetwothree.png',
-    './img/musicclose.png',
-    './img/musicopen.png',
-    './images/_35wegsew.png',
-    './images/asfasfa.png',
-    './images/BB.jpg',
-    './img/three.png',
-    './images/efzfafa.png',
-    './images/etsdgset.png',
-    './images/setsdgs.png',
-    './images/rsdgsdg.png',
-    './img/gogogo.jpg',
-    './img/join.png',
-    './img/write01.png',
-    './img/write02.png',
-    './img/write03.png',
-    './images/stwetetw.png'
-];
-ImgLoadingByFile(imgFile);//canvas是动画页的DIV
-var ending = document.getElementById("ending");
-var information = document.getElementById("information");
 
-ending.addEventListener('touchmove',function(e){
-    	e.preventDefault();
-        $("#ending").removeClass('shew');
-        $("#information").css("top","0");
-        $("#animation_container").css("opacity","0");     
- });
+		
+		var ending = document.getElementById("ending");
+		var information = document.getElementById("information");
+		
+		ending.addEventListener('touchmove',function(e){
+		    	e.preventDefault();
+		        $("#ending").removeClass('shew');
+		        $("#information").css("top","0");
+		        $("#animation_container").css("opacity","0");     
+		 });
+});
