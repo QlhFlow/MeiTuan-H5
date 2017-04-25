@@ -26,7 +26,7 @@ $(function(){
     musicStar.load();
 	musicStar.play(); 
 	var firstTouch = true;
-$('body').bind("touchstart",function(e){
+$('body').unbind("touchstart").bind("touchstart",function(e){
     if ( firstTouch ) {
         firstTouch = false;
         musicStar.play();
